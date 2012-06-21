@@ -1,0 +1,146 @@
+LANGUAGE FILE CHANGELOG -- Lightbox Module
+
+# $Id: CHANGELOG_lang.en.txt 6582 2009-12-21 09:56:49Z windmillway $
+
+Use this file to follow the changes made to the English language files
+between different versions of phpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / text was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+For massive changes, the variable names should be listed in the order in which they
+occur in the respective language files.
+
+VERSION 4.2.3
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------------------
+*$pgv_lang["TYPE__notinDB"]							21 Dec 2009				W (reverted back to "Not in DB")
+*$pgv_lang["TYPE__notinDB"]							05 Oct 2009				W
+
+
+VERSION 4.2.2
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------------------
++$pgv_lang["TYPE__notinDB"]							08 May 2009				A
++$pgv_lang["ROW_TYPE__notinDB"]						08 May 2009				A
+
+
+
+VERSION 4.1.6
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------------------
++$pgv_lang["lb_toAdminConfigPage"]					14 Oct 2008				A
++$pgv_lang["lb_manage"]								14 Oct 2008				A
++$pgv_lang["lb_generalhelp"]						24 Jun 2008				A
++$pgv_lang["lb_view_notes"]							24 Jun 2008				A
++$pgv_lang["lb_view_details"]						24 Jun 2008				A
++$pgv_lang["lb_view_source"]						24 Jun 2008				A
++$pgv_lang["lb_edit_media"]							24 Jun 2008				A
++$pgv_lang["lb_unlink_media"]						24 Jun 2008				A
+*$pgv_lang["lb_tt_balloon"]							24 Jun 2008				w
+*$pgv_lang["lb_ttAppearance"]						24 Jun 2008				w
++$pgv_lang["lb_balloon_true"]						18 Jun 2008				A
++$pgv_lang["lb_balloon_false"]						18 Jun 2008				A
++$pgv_lang["lb_tt_balloon"]							18 Jun 2008				A
++$pgv_lang["lb_ttAppearance"]						18 Jun 2008				A
++$pgv_lang["view_lightbox"]							15 Jun 2008				A
++$pgv_lang["lb_notes"]								11 Jun 2008				A
++$pgv_lang["lb_notes_info"]							11 Jun 2008				A
+
+
+
+
+VERSION 4.1.4
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------------------
++$pgv_lang["lb_details"]							21 Nov 2007				A
++$pgv_lang["lb_detail_info"]						21 Nov 2007				A
++$pgv_lang["lb_pause_ss"]							21 Nov 2007				A
++$pgv_lang["lb_start_ss"]							21 Nov 2007				A
++$pgv_lang["lb_music"]								21 Nov 2007				A
++$pgv_lang["lb_zoom-off"]							21 Nov 2007				A
++$pgv_lang["lb_zoom-on"]							21 Nov 2007				A
++$pgv_lang["lb_close-win"]							21 Nov 2007				A
+
+
+VERSION 4.1.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------------------
+-$pgv_lang["active"] 								05 Nov 2007				D
+-$pgv_lang["no_media"]								05 Nov 2007				D
+*$pgv_lang["mediatab"]								26 Oct 2007				W
++$pgv_lang["lb_appearance"]							26 Oct 2007				A
++$pgv_lang["lb_linkAppearance"]						26 Oct 2007				A
++$pgv_lang["lb_MP3Only"]							26 Oct 2007				A
++$pgv_lang["lb_toAlbumPage"]						26 Oct 2007				A
+-$pgv_lang["lb_ml_ThumbLinkAdvice"]					26 Oct 2007				D
+*$pgv_lang["lb_al_head_links"]						26 Oct 2007				W
+*$pgv_lang["lb_al_thumb_links"]						26 Oct 2007				W
+*$pgv_lang["lb_ml_thumb_links"]						26 Oct 2007				W
+*$pgv_lang["lb_music_file"]							26 Oct 2007				W
+*$pgv_lang["lb_ss_speed"]							26 Oct 2007				f
+*$pgv_lang["lb_transition"]							26 Oct 2007				W
+*$pgv_lang["lb_url_dimensionsAdvice"]				26 Oct 2007				C
++$pgv_lang["lb_transition"]							25 Oct 2007				A
++$pgv_lang["lb_normal"]								25 Oct 2007				A
++$pgv_lang["lb_double"]								25 Oct 2007				A
++$pgv_lang["lb_warp"]  								25 Oct 2007				A
++$pgv_lang["lb_url_dimensions"]						25 Oct 2007				A
++$pgv_lang["lb_url_dimensionsAdvice"]				25 Oct 2007				A
++$pgv_lang["lb_width"]								25 Oct 2007				A
++$pgv_lang["lb_height"]								25 Oct 2007				A
+
+
+VERSION 4.1.2
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------------------
+*$pgv_lang["TYPE__footnotes"] 						15 Oct 2007				A
+*$pgv_lang["lb_music_file"]							12 Oct 2007				W
+*$pgv_lang["lb_musicFileAdvice"]					12 Oct 2007				W
+*$pgv_lang["lb_musicFileAdvice"]					12 Oct 2007				W
++$pgv_lang["lb_ml_ThumbLinkAdvice"]					09 Oct 2007				A
++$pgv_lang["lb_musicFileAdvice"]					09 Oct 2007				A
++$pgv_lang["lb_ss_SpeedAdvice"]						09 Oct 2007				A
+*$pgv_lang["mediatab"]								09 Oct 2007				f
+*$pgv_lang["lb_al_head_links"]						09 Oct 2007				f
+*$pgv_lang["lb_al_thumb_links"]						09 Oct 2007				f
+*$pgv_lang["lb_ml_thumb_links"]						09 Oct 2007				f
+*$pgv_lang["lb_music_file"]							09 Oct 2007				f
+*$pgv_lang["lb_ss_speed"]							09 Oct 2007				w
++$pgv_lang["configure_lightbox"]					08 Oct 2007				A
++$pgv_lang["mediatab"]								08 Oct 2007				A
++$pgv_lang["lb_admin_error"]						08 Oct 2007				A
++$pgv_lang["lb_icon"]								08 Oct 2007				A
++$pgv_lang["lb_text"]								08 Oct 2007				A
++$pgv_lang["lb_both"]								08 Oct 2007				A
++$pgv_lang["lb_none"]								08 Oct 2007				A
++$pgv_lang["lb_al_head_links"]						08 Oct 2007				A
++$pgv_lang["lb_al_thumb_links"]						08 Oct 2007				A
++$pgv_lang["lb_ml_thumb_links"]						08 Oct 2007				A
++$pgv_lang["lb_music_file"]							08 Oct 2007				A
++$pgv_lang["lb_ss_speed"]							08 Oct 2007				A
+ct 2007				A
++$pgv_lang["lb_ml_thumb_links"]						08 Oct 2007				A
++$pgv_lang["lb_music_file"]							08 Oct 2007				A
++$pgv_lang["lb_ss_speed"]							08 Oct 2007				A

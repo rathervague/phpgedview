@@ -1,0 +1,201 @@
+PHPGEDVIEW RESEARCH-LOG LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_lang.en.txt 5030 2009-02-13 23:30:50Z fisharebest $
+
+Use this file to follow the changes made to the language files
+between different versions of phpGedView.  Use the rs_lang.en.php
+file to view the english text for these changes.
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / text was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+For massive changes, the variable names should be listed in the order in which they
+occur in the respective language files.
+
+
+VERSION 4.2.0
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
++$pgv_lang["autosearch_sfullname"]		13 Feb 2008 A
++$pgv_lang["autosearch_ffullname"]    13 Feb 2008 A
++$pgv_lang["autosearch_mfullname"]    13 Feb 2008 A
+
+VERSION 4.1.6
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
++$pgv_lang["autosearch_myear"]		                06 Jun 2008 A
++$pgv_lang["autosearch_mloc"]		                  06 Jun 2008 A
+-$pgv_lang["autosearch_plugin_name_ellisIsland"]  06 Jun 2008 A Rename index to be same as plugin name
++$pgv_lang["autosearch_plugin_name_ellisisland"]  06 Jun 2008 D "      "     "  "   "   "  "      "
+-$pgv_lang["autosearch_plugin_name_genNet"]       06 Jun 2008 A "      "     "  "   "   "  "      "
++$pgv_lang["autosearch_plugin_name_geneanet"]     06 Jun 2008 D "      "     "  "   "   "  "      "
+-$pgv_lang["autosearch_plugin_name_gen"]          06 Jun 2008 A "      "     "  "   "   "  "      "
++$pgv_lang["autosearch_plugin_name_genealogy"]    06 Jun 2008 D "      "     "  "   "   "  "      "
+-$pgv_lang["autosearch_plugin_name_fs"]           06 Jun 2008 A "      "     "  "   "   "  "      "
++$pgv_lang["autosearch_plugin_name_familysearch"] 06 Jun 2008 D "      "     "  "   "   "  "      "
+
+
+VERSION 4.1.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+-$pgv_lang["help_comments"]							6 Nov 2007				D
+-$pgv_lang["comres"]								6 Nov 2007				D
+-$pgv_lang["modified"]								6 Nov 2007				D
+-$pgv_lang["folder_list"]							6 Nov 2007				D
+-$pgv_lang["Edit_Task"]								6 Nov 2007				D
+-$pgv_lang["End_Date"]								6 Nov 2007				D
+-$pgv_lang["folder_new"]							6 Nov 2007				D
+-$pgv_lang["folder_delete_check"]					6 Nov 2007				D
+-$pgv_lang["edit_research_folder"]					6 Nov 2007				D
+-$pgv_lang["folder_not_exist"]						6 Nov 2007				D
+-$pgv_lang["folder_parent"]							6 Nov 2007				D
+-$pgv_lang["parent_id"]								6 Nov 2007				D
+-$pgv_lang["folder_users"]							6 Nov 2007				D
+-$pgv_lang["edit_research_log"]						6 Nov 2007				D
+-$pgv_lang["log_not_exist"]							6 Nov 2007				D
+-$pgv_lang["edit_log_entry"]						6 Nov 2007				D
+-$pgv_lang["log_no_entry"]							6 Nov 2007				D
+-$pgv_lang["log_modified"]							6 Nov 2007				D
+-$pgv_lang["log_modified_by"]						6 Nov 2007				D
+-$pgv_lang["log_edit_entry"]						6 Nov 2007				D
+-$pgv_lang["research_logs"]							6 Nov 2007				D
+-$pgv_lang["log_no_entry_folder"]					6 Nov 2007				D
+-$pgv_lang["folder_sub"]							6 Nov 2007				D
+-$pgv_lang["folder_sub_new"]						6 Nov 2007				D
+-$pgv_lang["log_show"]								6 Nov 2007				D
+-$pgv_lang["log_show_uncomplete"]					6 Nov 2007				D
+-$pgv_lang["log_show_complete"]						6 Nov 2007				D
+-$pgv_lang["log_delete_check"]						6 Nov 2007				D
+-$pgv_lang["function_folder_delete"]				6 Nov 2007				D
+-$pgv_lang["function_subfolder_delete"]				6 Nov 2007				D
+-$pgv_lang["folder_delete_ok"]						6 Nov 2007				D
+-$pgv_lang["folder_update_ok"]						6 Nov 2007				D
+-$pgv_lang["folder_added"]							6 Nov 2007				D
+-$pgv_lang["search_results"]						6 Nov 2007				D
+-$pgv_lang["nothing_found"]							6 Nov 2007				D
+-$pgv_lang["help_rs_folders.php"]					6 Nov 2007				D
+-$pgv_lang["help_rs_editfolder.php"]				6 Nov 2007				D
+-$pgv_lang["help_rs_editlog.php"]					6 Nov 2007				D
+-$pgv_lang["no_sources"]							6 Nov 2007				D
+-$pgv_lang["no_people"]								6 Nov 2007				D
+-$pgv_lang["comment_title_help"]					6 Nov 2007				D
+-$pgv_lang["comment_help"]							6 Nov 2007				D
+
+-$pgv_lang["description"]							5 Nov 2007				D
+
+
+VERSION 4.1
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
++$pgv_lang["autosearch_ssurname"] 					05 Sep 2007				A
++$pgv_lang["autosearch_sgivennames"] 				05 Sep 2007				A
++$pgv_lang["autosearch_plugin_name_gensearchhelp"]	05 Sep 2007				A
+*$pgv_lang["no_sour_tasks"]		   				02 June 2007			S
++$pgv_lang["TheMostLikely"]							01 March 2007			A
+*$pgv_lang["add_task_inst"]							18 Feb 2007				w  Correct grammar
+*$pgv_lang["auto_gen_inst"]							18 Feb 2007				w  Correct grammar
+*$pgv_lang["manage_research_inst"]					18 Feb 2007				w  Correct grammar
+-$temp_out_autosearch								18 Feb 2007				D  Move text to $pgv_lang["auto_search"]
+*$pgv_lang["auto_search"]							18 Feb 2007				W
+-$temp_out_comments									18 Feb 2007				D  Move text to $pgv_lang["help_comments"]
+*$pgv_lang["help_comments"]							18 Feb 2007				W
+*$pgv_lang["my_tasks"]								18 Feb 2007				W
+*$pgv_lang["ra_generate_tasks"]						18 Feb 2007				W  Correct grammar
+-$temp_out_missinginfo								18 Feb 2007				D  Move text to $pgv_lang["ra_missing_info_help"]
+*$pgv_lang["ra_missing_info_help"]					18 Feb 2007				W
+*$pgv_lang["ra_fold_name_help"]						18 Feb 2007				f
+*$pgv_lang["ra_add_task_help"]						18 Feb 2007				f
+*$pgv_lang["ra_edit_folder_help"]					18 Feb 2007				f
+*$pgv_lang["ra_add_folder_help"]					18 Feb 2007				f
+*$pgv_lang["ra_view_task_help"]						18 Feb 2007				f
+*$pgv_lang["ra_task_view_help"]						18 Feb 2007				fw
+*$pgv_lang["ra_comments_help"]						18 Feb 2007				fw
+*$pgv_lang["ra_GenerateTasks_help"]					18 Feb 2007				fw
+*$pgv_lang["ra_EditGenerateTasks_help"]				18 Feb 2007				f
+*$pgv_lang["ra_configure_privacy_help"]				18 Feb 2007				fW
+*$pgv_lang["ra_edit_task_help"]						18 Feb 2007				f
+*$pgv_lang["complete_title"]						18 Feb 2007				w
+*$pgv_lang["mytasks_block_descr"]					18 Feb 2007				w
+*$pgv_lang["mytasks_block"]							18 Feb 2007				W
+*$pgv_lang["mytasks_help"]							18 Feb 2007				W
++$pgv_lang["add_task_inst"]							1 Feb 2007
++$pgv_lang["complete_task_inst"]					1 Feb 2007
++$pgv_lang["enter_results"]							1 Feb 2007
++$pgv_lang["auto_gen_inst"]							1 Feb 2007
++$pgv_lang["choose_search_site"]					1 Feb 2007
++$pgv_lang["pid_search_for"]						1 Feb 2007
++$pgv_lang["manage_research_inst"]					1 Feb 2007
++$pgv_lang["manage_research"]						1 Feb 2007
++$pgv_lang["manage_sources"]						1 Feb 2007
++$pgv_lang["part_of"]								1 Feb 2007
++$pgv_lang["search_fhl"]							1 Feb 2007
++$pgv_lang["determine_sources"]						1 Feb 2007
++$pgv_lang["analyze_database"]						1 Feb 2007
++$pgv_lang["pid_know_more"]							1 Feb 2007
++$pgv_lang["analyze_people"]						1 Feb 2007
++$pgv_lang["analyze_data"]							1 Feb 2007
++$pgv_lang["More"]									1 Feb 2007
++$pgv_lang["All"]									1 Feb 2007
++ $pgv_lang["NotEnoughData"]						25 Jan 2007
++ $pgv_lang["InferIndvBirthPlac"]					25 Jan 2007
++ $pgv_lang["InferIndvDeathPlac"]					25 Jan 2007
++ $pgv_lang["InferIndvSurn"]						25 Jan 2007
++ $pgv_lang["InferIndvMarriagePlace"]				25 Jan 2007
++ $pgv_lang["InferIndvGivn"]  						25 Jan 2007
+- $pgv_lang["all"]									7 Nov 2006
++ $pgv_lang["page"]									13 Dec 2005
++ $pgv_lang["city"]									13 Dec 2005 
++ $pgv_lang["county"]								13 Dec 2005 
++ $pgv_lang["enumDate"]								13 Dec 2005 
++ $pgv_lang["call/url"]								13 Dec 2005 
++ $pgv_lang["state"]								13 Dec 2005 
++ $pgv_lang["okay"]									13 Dec 2005 
++ $pgv_lang["rows"]									13 Dec 2005
+* $pgv_lang["task_entry"]							13 Dec 2005
++ $pgv_lang["Edit_Task"]							29 Nov 2005
++ $pgv_lang["End_Date"]								29 Nov 2005
++ $pgv_lang["Start_Name"]							29 Nov 2005
++ $pgv_lang["Task_Name"]							29 Nov 2005 
++ $pgv_lang["Folder_Name"]							29 Nov 2005
++ $pgv_lang["Folder_View"]							29 Nov 2005
++ $pgv_lang["Task_View"]							29 Nov 2005
++ $pgv_lang["up_folder"]							9 Nov 2005		
++ $pgv_lang["edit_folder"]							9 Nov 2005
++ $pgv_lang["view_folders"]							9 Nov 2005
++ $pgv_lang["add_folder"]							9 Nov 2005
++ $pgv_lang["add_task"]								9 Nov 2005
++ $pgv_lang["no_folder_name"]						3 Nov 2005  
++ $pgv_lang["add_folder"]							3 Nov 2005  
++ $pgv_lang["edit_folder"]							3 Nov 2005  
++ $pgv_lang["folder_name"]							3 Nov 2005 
++ $pgv_lang["Parent_Folder:"]						3 Nov 2005  
++ $pgv_lang["No_Parent"]							3 Nov 2005  
++ $pgv_lang["Folder_Description:"]					3 Nov 2005
++ $pgv_lang["Folder_names_must_be_unique"]			3 Nov 2005
++ $pgv_lang["folder_submitted"]						3 Nov 2005  
++ $pgv_lang["folder_problem"]						3 Nov 2005  
++ $pgv_lang["Results"]								28 Oct 2005
++ $pgv_lang["Details"]								28 Oct 2005
+* $pgv_lang["help_rs_folders.php"]					27 Oct 2005
+* $pgv_lang["help_rs_editfolder.php"]				27 Oct 2005
+* $pgv_lang["help_rs_editlog.php"]					27 Oct 2005
+* $pgv_lang["page_header"]							27 Oct 2005
+	

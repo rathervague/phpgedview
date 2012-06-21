@@ -1,0 +1,40 @@
+PHPGEDVIEW BATCH_UPDATE LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_lang.en.txt 6931 2010-02-12 20:45:23Z canajun2eh $
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / text was changed
+
+Additional codes, to help Translators, follow the date as follows:
+    A - Added or moved from another file
+    C - Capitalization  (doesn't affect translation)
+    D - Deleted
+    f - Minor format change
+    F - Major format change
+    p - Punctuation change  (doesn't affect translation)
+    M - Moved to another file
+    S - Spelling change     (doesn't affect translation)
+    w - Minor wording change
+    W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+For massive changes, the variable names should be listed in the order in which they
+occur in the respective language files.
+VERSION 4.3.0
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
+*$pgv_lang["bu_words_desc"]							12 Feb 2010				p	Add missing full stop at end of sentence
+*$pgv_lang["bu_married_names_desc"]					12 Feb 2010				fw	Correct <br/>; "GEDCOM" --> "database"
+*$pgv_lang["bu_duplicate_links_desc"]				12 Feb 2010				w	Remove "gedcom"
+
+
+?$pgv_lang["whatever"]                              dd Monthname, year      Change codes and comments
+----------------------------------------------------------------------------------------
++$pgv_lang["bu_tmglatlon"]            		        29 November 2008        A
++$pgv_lang["bu_tmglatlon_desc"]               		29 November 2008		A
++$pgv_lang["bu_duplicate_links"]                    21 November 2008        A
++$pgv_lang["bu_duplicate_links_desc"]               21 November 2008		A
++$pgv_lang["bu_name_format"]                        07 November 2008        A
++$pgv_lang["bu_name_format_desc"]                   07 November 2008        A

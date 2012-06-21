@@ -1,0 +1,169 @@
+PHPGEDVIEW LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_editor.en.txt 6977 2010-08-25 01:06:08Z canajun2eh $
+
+For information on changes prior to the release of PGV 4.2.0 (16 Nov. 2008), please
+refer to the files in ZIP file "languages/CHANGELOG_bef.20081117.zip"
+
+Use this file to follow the changes made to the English language files
+between different versions of PhpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_admin.en.txt
+		CHANGELOG_configure_help.en.txt
+		CHANGELOG_countries.en.txt
+		CHANGELOG_editor.en.txt
+		CHANGELOG_facts.en.txt
+		CHANGELOG_faqlist.en.txt
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / translation was changed
+# $pgv_lang["text"] / keyword was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	R - keyword was renamed (no translation changes required)
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+For massive changes, the variable names should be listed in the order in which they
+occur in the respective language files.
+
+VERSION 4.2.4
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
+
+
+VERSION 4.2.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
++$pgv_lang["shared_note_assisted"]					04 Dec 2009				A
+*$pgv_lang["create_shared_note_assisted"]			03 Dec 2009				w
+*$pgv_lang["create_shared_note_assisted"]			01 Dec 2009				C
+*$pgv_lang["create_shared_note_assisted"]			18 Nov 2009				w
++$pgv_lang["add_new_event_assisted"]				18 Nov 2009				A
+
+
+VERSION 4.2.2
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
++$pgv_lang["to_note"]								30 Jun 2009				A
++$pgv_lang["to_repository"]							30 Jun 2009				A
+-$pgv_lang["gedcomid"]								13 Jun 2009				M Moved to lang.en.php
+
+
+VERSION 4.2.1
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+-----------------------------------------------------------------------------------------
++$pgv_lang["create_shared_note_assisted"]			21 Mar 2009				A
+*$pgv_lang["add_from_clipboard"]					11 Mar 2009				w
++$pgv_lang["add_unlinked_note"]						03 Mar 2009				A
++$pgv_lang["add_unlinked"]							03 Mar 2009				A
++$pgv_lang["add_shared_note"]						02 Mar 2009				A
++$pgv_lang["add_shared_note_lbl"]					02 Mar 2009				A
++$pgv_lang["create_shared_note"]					02 Mar 2009				A
++$pgv_lang["new_shared_note_created"] 				02 Mar 2009				A
++$pgv_lang["shared_note_updated"]					02 Mar 2009				A
+
+
+VERSION 4.2.0
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+-$pgv_lang["photo_replace"]							10 Feb 2009				D
++$pgv_lang["add_opf_child"]							9 Jan 2009				A
+*$pgv_lang["edit_concurrency_reload"]				11 December 2008		W
+
+
+VERSION 4.1.6
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
++$pgv_lang["copy_error"]							9 Nov 2008				A
+*$pgv_lang["max_media_depth"]						9 Nov 2008				W
++$pgv_lang["gen_missing_thumbs_lbl"]				23 Oct 2008				A
++$pgv_lang["gen_missing_thumbs"]					23 Oct 2008				A
+*$pgv_lang["add_marriage"]							22 Aug 2008				W	new marriage -> marriage details
+-$pgv_lang["label_remote_id"]						3 Aug 2008				D
+*$pgv_lang["label_rel_to_current"]					3 Aug 2008				C	(No translation necessary)
+*$pgv_lang["current_person"]						3 Aug 2008				C	(No translation necessary)
+*$pgv_lang["label_diff_server"]						3 Aug 2008				W
+*$pgv_lang["label_same_server"]						3 Aug 2008				W
+*$pgv_lang["lbl_server_list"]						3 Aug 2008				W
++$pgv_lang["edit_repo"]								04 Jul 2008				A
+*$pgv_lang["reorder_media_title"]					29 May 2008				w
+*$pgv_lang["reorder_media_window_title"]			29 May 2008				w
+*$pgv_lang["reorder_media_save"]					29 May 2008				w
+*$pgv_lang["reorder_media_reset"]					29 May 2008				w
++$pgv_lang["reorder_media"]							29 May 2008				A
++$pgv_lang["reorder_media_title"]					29 May 2008				A
++$pgv_lang["reorder_media_window"]					29 May 2008				A
++$pgv_lang["reorder_media_window_title"]			29 May 2008				A
++$pgv_lang["reorder_media_save"]					29 May 2008				A
++$pgv_lang["reorder_media_reset"]					29 May 2008				A
++$pgv_lang["reorder_media_cancel"]					29 May 2008				A
++$pgv_lang["file_no_temp_dir"]						15 May 2008				A
++$pgv_lang["file_cant_write"]						15 May 2008				A
++$pgv_lang["file_bad_extension"]					15 May 2008				A
++$pgv_lang["file_unkown_err"]						15 May 2008				A
+
+
+VERSION 4.1.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
++$pgv_lang["add_marriage"]							23 Oct 2007				A
+
+
+VERSION 4.1.2
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+-$pgv_lang["date_of_entry"]							19 Oct 2007				M	Moved to lang.xx.php
+*$pgv_lang["edit_concurrency_msg1"]					12 Oct 2007				w
+*$pgv_lang["edit_concurrency_reload"]				12 Oct 2007				w
++$pgv_lang["edit_concurrency_change"]				11 Oct 2007				A
++$pgv_lang["edit_concurrency_msg2"]					11 Oct 2007				A
++$pgv_lang["edit_concurrency_msg1"]					11 Oct 2007				A
++$pgv_lang["edit_concurrency_reload"]				11 Oct 2007				A
+-$pgv_lang["multi_site_search"]						01 Oct 2007				M	Moved to lang.xx.php
+*$pgv_lang["media_file_moved"]						08 Sep 2007				A
+*$pgv_lang["resn_disabled"]							05 Aug 2007				A
+
+
+VERSION 4.1
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+*$pgv_lang["edit_sex"]								13 July 2007			w	"sex" -> "gender"
+*$pgv_lang["gender_search"]							13 July 2007			w	"sex" -> "gender"
+*$pgv_lang["invalid_search_multisite_input"]		13 July 2007			w	"sex" -> "gender"
+*$pgv_lang["invalid_search_multisite_input_gender"]	13 July 2007			w	"sex" -> "gender"
+-$pgv_lang["family"]                    			05 July 2007      		M	moved to lang.xx.php for [1736907]
++$pgv_lang["admin_override"]						04 March 2007			w
+*$pgv_lang["no_update_CHAN"]						04 March 2007			w
++$pgv_lang["admin_override"]						03 March 2007			A
++$pgv_lang["no_update_CHAN"]						03 March 2007			A
+-$pgv_lang["invalid_search_input"]					15 Feb 2007				D	Moved to lang.xx.php file
++$pgv_lang["select_events"]							30 January 2007			A
++$pgv_lang["source_events"]							30 January 2007			A
+*$pgv_lang["advanced_name_fields"]					04 November 2006		W
++$pgv_lang["advanced_name_fields"]					03 November 2006		A
+*$pgv_lang["label_location"]						29 October, 2006		w	(deleted duplicate entry)
+*$pgv_lang["label_gedcom_id"]						29 October, 2006		w	(deleted duplicate entry)

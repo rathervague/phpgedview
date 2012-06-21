@@ -1,0 +1,146 @@
+PHPGEDVIEW LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_configure_help.en.txt 6977 2010-08-25 01:06:08Z canajun2eh $
+
+For information on changes prior to the release of PGV 4.2.0 (16 Nov. 2008), please 
+refer to the files in ZIP file "languages/CHANGELOG_bef.20081117.zip"
+
+Use this file to follow the changes made to the English language files
+between different versions of PhpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_admin.en.txt
+		CHANGELOG_configure_help.en.txt
+		CHANGELOG_countries.en.txt
+		CHANGELOG_editor.en.txt
+		CHANGELOG_facts.en.txt
+		CHANGELOG_faqlist.en.txt
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / translation was changed
+# $pgv_lang["text"] / keyword was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	R - keyword was renamed (no translation changes required)
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+
+VERSION 4.2.4
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
++$pgv_lang["croatian"]								23 Mar 2010				A
+*$pgv_lang["add_faq_pgvLangRefs"]					07 Feb 2010				W	Added example of a reference to a "PGV_..." constant
+*$pgv_lang["um_bu_logs"]							24 Jan 2010				W 
+*$pgv_lang["USE_SILHOUETTE_help"]					05 Jan 2010				w added missing '>'
+*$pgv_lang["USE_SILHOUETTE_help"]					03 Jan 2010				W
++$pgv_lang["USE_SILHOUETTE"]						02 Jan 2010				A
++$pgv_lang["USE_SILHOUETTE_help"]					02 Jan 2010				A
+
+
+VERSION 4.2.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
++$pgv_lang["lang_name_english (uk)"]				04 Nov 2009				A
++$pgv_lang["lang_name_english (us)"]				04 Nov 2009				A
+-$pgv_lang["ALLOW_REMEMBER_ME_help"]				30 Sep 2009				D
+-$pgv_lang["META_SURNAME_KEYWORDS"]					27 Sep 2009				D
+-$pgv_lang["META_SURNAME_KEYWORDS_help"]			27 Sep 2009				D	
+*$pgv_lang["PGV_SMTP_HOST_help"]					10 Aug 2009				W
+*$pgv_lang["PGV_SMTP_SSL_help"]						10 Aug 2009				W
+
+
+VERSION 4.2.2
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+*$pgv_lang["DB_UTF8_COLLATION_help"]				24 Jun 2009				w
+-$pgv_lang["DBPERSIST"]								04 Jun 2009				D
+-$pgv_lang["DBPERSIST_help"]			 			04 Jun 2009				D
+*$pgv_lang["DBTYPE_help								16 May 2009				Sw
+*$pgv_lang["DBTYPE_help								16 May 2009				W
+
+
+VERSION 4.2.1
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+*$pgv_lang["ENABLE_AUTOCOMPLETE"]					27 Mar 2009				A
+*$pgv_lang["ENABLE_AUTOCOMPLETE_help"]				27 Mar 2009				A
+*$pgv_lang["USE_THUMBS_MAIN_help"]					22 Mar 2009				W
+*$pgv_lang["PGV_SMTP_SSL_help"]						15 Feb 2009				W
++$pgv_lang["PGV_SMTP_SSL_help"]						15 Feb 2009				A
+*$pgv_lang["USE_THUMBS_MAIN_help"]					13 Feb 2009				w
++$pgv_lang["lang_name_serbian-la"]					12 Feb 2009				A
+
+
+VERSION 4.2.0
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+*$pgv_lang["PAGE_AFTER_LOGIN_help"]					30 Jan 2009				w
++$pgv_lang["PAGE_AFTER_LOGIN"]						29 Jan 2009				A
++$pgv_lang["PAGE_AFTER_LOGIN_help"]					29 Jan 2009				A
+*$pgv_lang["PREFER_LEVEL2_SOURCES"]					26 Jan 2009				W
+*$pgv_lang["USE_QUICK_UPDATE_help"]					26 Jan 2009				W
+*$pgv_lang["USE_GEONAMES_help"]						25 Jan 2009				W
+*$pgv_lang["USE_GEONAMES"]							24 Jan 2009				W
+*$pgv_lang["USE_GEONAMES_help"]						24 Jan 2009				W
++$pgv_lang["USE_GEONAMES"]							24 Jan 2009				A
++$pgv_lang["USE_GEONAMES_help"]						24 Jan 2009				A
++$pgv_lang["lang_name_indonesian"]					24 Jan 2009				A
+#$pgv_lang["more_config_hjaelp"]					21 Jan 2009				R	"more_config_hjaelp" --> "more_help_advice"
+*$pgv_lang["general_privacy_help"]					21 Jan 2009				w	"more_config_hjaelp" --> "more_help_advice"
+*$pgv_lang["PGV_SMTP_FROM_NAME_help"]				15 Jan 2009				W
++$pgv_lang["PGV_SMTP_FROM_NAME_help"]				15 Jan 2009				A
++$pgv_lang["lang_name_slovenian"]					7 Jan 2009				A
+*$pgv_lang["PGV_SMTP_ACTIVE_help"]					22 Dec 2008				W
+*$pgv_lang["PGV_SMTP_HOST_help"]					22 Dec 2008				W
+*$pgv_lang["PGV_SMTP_HELO_help"]					22 Dec 2008				W
+*$pgv_lang["PGV_SMTP_PORT_help"]					22 Dec 2008				W
+*$pgv_lang["PGV_SMTP_AUTH_help"]					22 Dec 2008				W
+*$pgv_lang["PGV_SMTP_AUTH_USER_help"]				22 Dec 2008				W
+*$pgv_lang["PGV_SMTP_AUTH_PASS_help"]				22 Dec 2008				W
++$pgv_lang["PGV_SMTP_ACTIVE_help"]					22 Dec 2008				A
++$pgv_lang["PGV_SMTP_HOST_help"]					22 Dec 2008				A
++$pgv_lang["PGV_SMTP_HELO_help"]					22 Dec 2008				A
++$pgv_lang["PGV_SMTP_PORT_help"]					22 Dec 2008				A
++$pgv_lang["PGV_SMTP_AUTH_help"]					22 Dec 2008				A
++$pgv_lang["PGV_SMTP_AUTH_USER_help"]				22 Dec 2008				A
++$pgv_lang["PGV_SMTP_AUTH_PASS_help"]				22 Dec 2008				A
+-$pgv_lang["USE_RTL_FUNCTIONS"]						21 Dec 2008				D
+-$pgv_lang["USE_RTL_FUNCTIONS_help"]				21 Dec 2008				D
+*$pgv_lang["person_privacy_help"]					30 Nov 2008				w	"ID 101" --> "ID I101"
+*$pgv_lang["user_privacy_help"]						30 Nov 2008				w	"ID 100" --> "ID I100"
+*$pgv_lang["edit_lang_utility_desc"]				28 Nov 2008				w	four --> nine
+-$pgv_lang["media_import_help"]						28 Nov 2008				D
+*$pgv_lang["compare_lang_utility_desc"]				28 Nov 2008				W	change wording about CHANGELOG files
+*$pgv_lang["ENABLE_RSS_help"]						26 Nov 2008				w	Correct URL to Wiki article on RSS
+*$pgv_lang["RSS_FORMAT_help"]						26 Nov 2008				w	Correct URL to Wiki article on RSS
+*$pgv_lang["EDIT_AUTOCLOSE_help"]					24 Nov 2008				S
+*$pgv_lang["DB_UTF8_COLLATION"]						24 Nov 2008				S	"UTF8" --> "UTF-8"
+*$pgv_lang["DB_UTF8_COLLATION_help"]				24 Nov 2008				SW
+*$pgv_lang["SURNAME_TRADITION_help"]				22 Nov 2008				W
+*$pgv_lang["multi_letter_equiv_help"]				22 Nov 2008				CSf
+*$pgv_lang["SURNAME_TRADITION_help"]				22 Nov 2008				W
++$pgv_lang["multi_letter_equiv"]					21 Nov 2008				A
++$pgv_lang["multi_letter_equiv_help"]				21 Nov 2008				A
++$pgv_lang["DB_UTF8_COLLATION"]						18 Nov 2008				A
++$pgv_lang["DB_UTF8_COLLATION_help"]				18 Nov 2008				A
++$pgv_lang["collation"]								17 Nov 2008				A
++$pgv_lang["collation_help"]						17 Nov 2008				A

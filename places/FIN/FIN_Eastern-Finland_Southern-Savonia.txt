@@ -1,0 +1,22 @@
+<!-- THIS FILE MUST BE SAVED IN UTF-8 ENCODING (or some special characters will be lost) -->
+<!-- @version $Id: FIN_Eastern-Finland_Southern-Savonia.txt 4195 2008-10-30 11:03:50Z fisharebest $ -->
+Mikkeli
+Savonlinna
+Enonkoski
+Haukivuori
+Heinävesi
+Hirvensalmi
+Joroinen
+Juva
+Kangasniemi
+Kerimäki
+Mäntyharju
+Pertunmaa
+Pieksämäen mlk
+Pieksänmaa
+Punkaharju
+Puumala
+Rantasalmi
+Ristiina
+Savonranta
+Sulkava

@@ -1,0 +1,25 @@
+##
+##
+##        Mod title:  Easy BBCode
+##
+##      Mod version:  1.0.1
+##   Works on PunBB:  1.2, 1.2.1
+##     Release date:  2005-02-06
+##           Author:  Rickard Andersson
+##
+##      Description:  This mod adds buttons for easy insertion of BBCode and
+##                    smilies when posting and editing messages.
+##
+##   Affected files:  post.php
+##                    edit.php
+##
+##       Affects DB:  No
+##
+##            Notes:  By popular demand :)
+##
+##       DISCLAIMER:  Please note that "mods" are not officially supported by
+##                    PunBB. Installation of this modification is done at your
+##                    own risk. Backup your forum database and any and all
+##                    applicable files before proceeding.
+##
+##

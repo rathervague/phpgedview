@@ -1,0 +1,28 @@
+<!-- THIS FILE MUST BE SAVED IN UTF-8 ENCODING (or some special characters will be lost) -->
+<!-- @version $Id: FIN_Vastra-Finlands-lan_Sodra-Osterbotten.txt 4195 2008-10-30 11:03:50Z fisharebest $ -->
+Alajärvi
+Alavus
+Etseri
+Kauhava
+Kurikka
+Lappo
+Seinäjoki
+Alahärmä
+Bötom
+Evijärvi
+Ilmajoki
+Jalasjärvi
+Jurva
+Kauhajoki
+Kortesjärvi
+Kuortane
+Lappajärvi
+Lehtimäki
+Nurmo
+Östermark
+Soini
+Storå
+Töysä
+Vimpeli
+Ylihärmä
+Ylistaro

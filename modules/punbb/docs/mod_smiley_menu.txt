@@ -1,0 +1,28 @@
+##
+##
+##        Mod title:  Smiley Menu
+##
+##      Mod version:  0.7
+##   Works on PunBB:  Should work on every version
+##     Release date:  2006-05-10
+##           Author:  El Bekko (elbekko@gmail.com)
+##
+##      Description:  This tool adds the possibility to
+##					  easily add smileys to posts by
+##					  clicking on them in a small menu.
+##
+##	 Difference with
+## previous version:  Quick Post bug fixed. See step 13 & 17 for fix.
+##
+##   Affected files:  post.php, viewtopic.php
+##
+##       Affects DB:  No
+##
+##            Notes:  Changed the check for duplicate entries in 0.5
+##
+##       DISCLAIMER:  Please note that "mods" are not officially supported by
+##                    PunBB. Installation of this modification is done at your
+##                    own risk. Backup your forum database and any and all
+##                    applicable files before proceeding.
+##
+##

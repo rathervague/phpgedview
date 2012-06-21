@@ -1,0 +1,37 @@
+GALLERY2 MODULE LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_mod.en.txt 4195 2008-10-30 11:03:50Z fisharebest $
+
+Use this file to follow the changes made to the English language files
+between different versions of phpGedView.  There are five separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / text was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+For massive changes, the variable names should be listed in the order in which they
+occur in the respective language files.
+
+
+VERSION 4.1
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+----------------------------------------------------------------------------------------
++$pgv_lang["mod_gallery2"]							15 Jul 2006				A
++$pgv_lang["mod_gallery2_siteadmin"]				15 Jul 2006				A
++$pgv_lang["mod_gallery2_useralbum"]				15 Jul 2006				A
++$pgv_lang["mod_gallery2_advsearch"]				15 Jul 2006				A

@@ -1,0 +1,210 @@
+LANGUAGE FILE CHANGELOG -- GEDFact Assistant Module
+
+# $Id: CHANGELOG_lang.en.txt 6864 2010-01-27 22:21:26Z windmillway $
+
+Use this file to follow the changes made to the English language files
+between different versions of phpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / text was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+For massive changes, the variable names should be listed in the order in which they
+occur in the respective language files.
+
+VERSION 4.3.0
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------------------
++$pgv_lang["enter_name"]							27 Jan 2010				A
+
+
+VERSION 4.2.3
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------------------
+
++$pgv_lang["head"]									16 Oct 2009				A
++$pgv_lang["cens_country"]							16 Oct 2009				A
++$pgv_lang["cens_year"]								16 Oct 2009				A
++$pgv_lang["cens_preview"]							16 Oct 2009				A
++$pgv_lang["cens_proposed"]							16 Oct 2009				A
++$pgv_lang["cens_add_insert"]						16 Oct 2009				A
+
++$pgv_lang["header_Name"]							16 Oct 2009				A
++$pgv_lang["header_Rela"]							16 Oct 2009				A
++$pgv_lang["header_MCond"]							16 Oct 2009				A
++$pgv_lang["header_Age"]							16 Oct 2009				A
++$pgv_lang["header_Sex"]							16 Oct 2009				A
++$pgv_lang["header_YrsM"]							16 Oct 2009				A
++$pgv_lang["header_ChilB"]							16 Oct 2009				A
++$pgv_lang["header_ChilL"]							16 Oct 2009				A
++$pgv_lang["header_AgM"]							16 Oct 2009				A
++$pgv_lang["header_Mmth"]							16 Oct 2009				A
++$pgv_lang["header_Occu"]							16 Oct 2009				A
++$pgv_lang["header_Ind"]							16 Oct 2009				A
++$pgv_lang["header_Emp"]							16 Oct 2009				A
++$pgv_lang["header_EmR"]							16 Oct 2009				A
++$pgv_lang["header_EmD"]							16 Oct 2009				A
++$pgv_lang["header_EmN"]							16 Oct 2009				A
++$pgv_lang["header_Bplace"]							16 Oct 2009				A
++$pgv_lang["header_Infirm"]							16 Oct 2009				A
+
++$pgv_lang["tt_view_Name"]							16 Oct 2009				A
++$pgv_lang["tt_view_Rela"]							16 Oct 2009				A
++$pgv_lang["tt_view_MCond"]							16 Oct 2009				A
++$pgv_lang["tt_view_Age"]							16 Oct 2009				A
++$pgv_lang["tt_view_Sex"]							16 Oct 2009				A
++$pgv_lang["tt_view_YrsM"]							16 Oct 2009				A
++$pgv_lang["tt_view_ChilB"]							16 Oct 2009				A
++$pgv_lang["tt_view_ChilL"]							16 Oct 2009				A
++$pgv_lang["tt_view_AgM"]							16 Oct 2009				A
++$pgv_lang["tt_view_Occu"]							16 Oct 2009				A
++$pgv_lang["tt_view_Ind"]							16 Oct 2009				A
++$pgv_lang["tt_view_Emp"]							16 Oct 2009				A
++$pgv_lang["tt_view_EmR"]							16 Oct 2009				A
++$pgv_lang["tt_view_EmD"]							16 Oct 2009				A
++$pgv_lang["tt_view_EmN"]							16 Oct 2009				A
++$pgv_lang["tt_view_Bplace"]						16 Oct 2009				A
++$pgv_lang["tt_view_Infirm"]						16 Oct 2009				A
+
++$pgv_lang["tt_edit_Name"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Rela"]							16 Oct 2009				A
++$pgv_lang["tt_edit_MCond"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Age"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Sex"]							16 Oct 2009				A
++$pgv_lang["tt_edit_YrsM"]							16 Oct 2009				A
++$pgv_lang["tt_edit_ChilB"]							16 Oct 2009				A
++$pgv_lang["tt_edit_ChilL"]							16 Oct 2009				A
++$pgv_lang["tt_edit_AgM"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Occu"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Ind"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Emp"]							16 Oct 2009				A
++$pgv_lang["tt_edit_EmR"]							16 Oct 2009				A
++$pgv_lang["tt_edit_EmD"]							16 Oct 2009				A
++$pgv_lang["tt_edit_EmN"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Bplace"]						16 Oct 2009				A
++$pgv_lang["tt_edit_Infirm"]						16 Oct 2009				A
+
++$pgv_lang["header_ChilD"]							16 Oct 2009				A
++$pgv_lang["header_EmH"]							16 Oct 2009				A
++$pgv_lang["header_BIC"]							16 Oct 2009				A
++$pgv_lang["header_BOE"]							16 Oct 2009				A
+
++$pgv_lang["tt_view_ChilD"]							16 Oct 2009				A
++$pgv_lang["tt_view_EmH"]							16 Oct 2009				A
++$pgv_lang["tt_view_BIC"]							16 Oct 2009				A
++$pgv_lang["tt_view_BOE"]							16 Oct 2009				A
+
++$pgv_lang["tt_edit_ChilD"]							16 Oct 2009				A
++$pgv_lang["tt_edit_EmH"]							16 Oct 2009				A
++$pgv_lang["tt_edit_BIC"]							16 Oct 2009				A
++$pgv_lang["tt_edit_BOE"]							16 Oct 2009				A
+
++$pgv_lang["header_Asset"]							16 Oct 2009				A
++$pgv_lang["header_Race"]							16 Oct 2009				A
++$pgv_lang["header_YOB"]							16 Oct 2009				A
++$pgv_lang["header_Bmth"]							16 Oct 2009				A
++$pgv_lang["header_BP"]								16 Oct 2009				A
++$pgv_lang["header_FBP"]							16 Oct 2009				A
++$pgv_lang["header_MBP"]							16 Oct 2009				A
++$pgv_lang["header_NL"]								16 Oct 2009				A
++$pgv_lang["header_YrsUS"]							16 Oct 2009				A
++$pgv_lang["header_YOI"]							16 Oct 2009				A
++$pgv_lang["header_NA"]								16 Oct 2009				A
++$pgv_lang["header_YON"]							16 Oct 2009				A
++$pgv_lang["header_EngL"]							16 Oct 2009				A
++$pgv_lang["header_Health"]							16 Oct 2009				A
++$pgv_lang["header_Educ"]							16 Oct 2009				A
++$pgv_lang["header_Eng"]							16 Oct 2009				A
++$pgv_lang["header_Lang"]							16 Oct 2009				A
++$pgv_lang["header_Vet"]							16 Oct 2009				A
++$pgv_lang["header_Tenure"]							16 Oct 2009				A
++$pgv_lang["header_Parent"]							16 Oct 2009				A
++$pgv_lang["header_Mnse"]							16 Oct 2009				A
++$pgv_lang["header_Wksu"]							16 Oct 2009				A
++$pgv_lang["header_Mnsu"]							16 Oct 2009				A
++$pgv_lang["header_Educpre1890"]					16 Oct 2009				A
++$pgv_lang["header_Home"]							16 Oct 2009				A
++$pgv_lang["header_Situ"]							16 Oct 2009				A
++$pgv_lang["header_War"]							16 Oct 2009				A
++$pgv_lang["header_Infirm1910"]						16 Oct 2009				A
+
++$pgv_lang["tt_view_Asset"]							16 Oct 2009				A
++$pgv_lang["tt_view_Race"]							16 Oct 2009				A
++$pgv_lang["tt_view_YOB"]							16 Oct 2009				A
++$pgv_lang["tt_view_Bmth"]							16 Oct 2009				A
++$pgv_lang["tt_view_BP"]							16 Oct 2009				A
++$pgv_lang["tt_view_FBP"]							16 Oct 2009				A
++$pgv_lang["tt_view_MBP"]							16 Oct 2009				A
++$pgv_lang["tt_view_NL"]							16 Oct 2009				A
++$pgv_lang["tt_view_YrsUS"]							16 Oct 2009				A
++$pgv_lang["tt_view_YOI"]							16 Oct 2009				A
++$pgv_lang["tt_view_NA"]							16 Oct 2009				A
++$pgv_lang["tt_view_YON"]							16 Oct 2009				A
++$pgv_lang["tt_view_EngL"]							16 Oct 2009				A
++$pgv_lang["tt_view_Health"]						16 Oct 2009				A
++$pgv_lang["tt_view_Educ"]							16 Oct 2009				A
++$pgv_lang["tt_view_Eng"]							16 Oct 2009				A
++$pgv_lang["tt_view_Lang"]							16 Oct 2009				A
++$pgv_lang["tt_view_Vet"]							16 Oct 2009				A
++$pgv_lang["tt_view_Tenure"]						16 Oct 2009				A
++$pgv_lang["tt_view_Parent"]						16 Oct 2009				A
++$pgv_lang["tt_view_Mmth"]							16 Oct 2009				A
++$pgv_lang["tt_view_Mnse"]							16 Oct 2009				A
++$pgv_lang["tt_view_Wksu"]							16 Oct 2009				A
++$pgv_lang["tt_view_Mnsu"]							16 Oct 2009				A
++$pgv_lang["tt_view_Educpre1890"]					16 Oct 2009				A
++$pgv_lang["tt_view_Home"]							16 Oct 2009				A
++$pgv_lang["tt_view_Situ"]							16 Oct 2009				A
++$pgv_lang["tt_view_War"]							16 Oct 2009				A
++$pgv_lang["tt_view_Infirm1910"]					16 Oct 2009				A
+
++$pgv_lang["tt_edit_Asset"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Race"]							16 Oct 2009				A
++$pgv_lang["tt_edit_YOB"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Bmth"]							16 Oct 2009				A
++$pgv_lang["tt_edit_BP"]							16 Oct 2009				A
++$pgv_lang["tt_edit_FBP"]							16 Oct 2009				A
++$pgv_lang["tt_edit_MBP"]							16 Oct 2009				A
++$pgv_lang["tt_edit_NL"]							16 Oct 2009				A
++$pgv_lang["tt_edit_YrsUS"]							16 Oct 2009				A
++$pgv_lang["tt_edit_YOI"]							16 Oct 2009				A
++$pgv_lang["tt_edit_NA"]							16 Oct 2009				A
++$pgv_lang["tt_edit_YON"]							16 Oct 2009				A
++$pgv_lang["tt_edit_EngL"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Health"]						16 Oct 2009				A
++$pgv_lang["tt_edit_Educ"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Eng"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Lang"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Vet"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Tenure"]						16 Oct 2009				A
++$pgv_lang["tt_edit_Parent"]						16 Oct 2009				A
++$pgv_lang["tt_edit_Mmth"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Mnse"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Wksu"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Mnsu"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Educpre1890"]					16 Oct 2009				A
++$pgv_lang["tt_edit_Home"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Situ"]							16 Oct 2009				A
++$pgv_lang["tt_edit_War"]							16 Oct 2009				A
++$pgv_lang["tt_edit_Infirm1910"]					16 Oct 2009				A
+
+
+

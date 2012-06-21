@@ -1,0 +1,1402 @@
+/**
+ * Style for SimplyGreen theme
+ *
+ * Use this stylesheet to customize the display of your site.
+ * To learn more about CSS visit http: //www.w3.org/TR/REC-CSS2/
+ *
+ * phpGedView: Genealogy Viewer
+ * Copyright (C) 2002 to 2010  PGV Development Team.  All rights reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * @package PhpGedView
+ * @subpackage Themes
+ * @version $Id: style.css 6988 2010-11-09 02:51:44Z canajun2eh $
+ */
+
+
+.something {
+	/*empty style to make sure that the BODY style is not ignored */
+}
+
+body {
+	color: white;
+	background-color: #004025;
+	font: 13px tahoma, arial, helvetica, sans-serif;
+	margin: 0px;
+}
+
+fieldset {
+	margin: 8px 8px 4px 8px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+a {
+	color: #bbffbb;
+	text-decoration: none;
+	font-family: tahoma, arial, helvetica, sans-serif;
+}
+
+a:hover	{
+	color: white;
+	text-decoration: none;
+}
+
+a.title {
+	color: white;
+	font: bold 32px tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.title {
+	color: white;
+	font: bold 32px tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+th {
+	font-weight: 100;
+}
+
+ul {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 8px;
+}
+
+.button {
+	width: 60px;
+}
+
+.headerimg {
+	background-repeat: no-repeat;
+}
+
+.gedcom_table {
+	border: 1px solid #00c000;
+	margin: 0;
+	width: 99%;
+}
+
+.person_box {
+	background-image: url("images/greenwhitegradiant2rev.gif");
+	background-repeat: repeat;
+	border: solid #00c0aa 1px;
+}
+
+.person_boxF {
+	background-image: url("images/greenwhitegradiant2.gif");
+	background-repeat: repeat;
+	border: solid #bb6a00 1px;
+}
+
+.person_boxNN {
+	background-color: #246339;
+	border: dashed #00bb80 1px;
+}
+
+.person_box:target, .news_box:target, #gedcom_stats:target {
+	background-image: none;
+	background-color: black;
+}
+
+.list_table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.list_table_clippings {
+	margin-left: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.list_label, .list_label_wrap {
+	background-image: url("images/greenwhitegradiant.gif");
+	color: white;
+	font: bold 12px tahoma, arial, helvetica, sans-serif;
+	text-align: center;
+}
+
+.list_value, .list_value_wrap {
+	background-color: #256238;
+	color: white;
+	border: solid #094215 1px;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	vertical-align: top;
+}
+
+.list_label, .list_value {
+	white-space: nowrap;
+}
+
+.list_label_wrap, .list_value_wrap {
+	white-space: normal;
+}
+
+.list_item {
+	font-size: 12px;
+}
+
+.facts_table, .facts_table_rtl {
+	width: 100%;
+}
+
+.facts_label {
+	color: white;
+	border: solid #094215 1px;
+	background-image: url("images/greenwhitegradiant.gif");
+	background-repeat: repeat;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	padding: 4px 4px 4px 4px;
+	width: 20%;
+	text-align: center;
+}
+
+.facts_label02, .facts_label03 {
+	color: white;
+	border: solid #094215 1px;
+	background-image: url("images/greengradiant.gif");
+	background-repeat: repeat;
+	font: bold 12px tahoma, arial, helvetica, sans-serif;
+	padding: 4px 4px 4px 4px;
+	text-align: center;
+}
+
+.facts_label02 {
+	background-color: #094215;
+}
+
+.facts_label03 {
+	background-color: #256238;
+}
+
+.facts_value {
+	background-color: #256238;
+	color: white;
+	border: solid #094215 1px;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	padding: 4px 4px 4px 4px;
+}
+
+.facts_value02 {
+	background-color: #256238;
+	color: white;
+	border: solid #094215 1px;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	padding: 5px;
+}
+
+.facts_labelred, .facts_labelblue {
+	color: #333333;
+	background-image: url("images/greengradiantrev.gif");
+	background-repeat: repeat;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	padding: 4px 4px 4px 4px;
+	width: 20%;
+	text-align: center;
+}
+
+.facts_valuered, .facts_valueblue {
+	background-color: #256238;
+	color: white;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	padding: 4px 4px 4px 4px;
+}
+
+.facts_labelred, .facts_valuered {
+	border: solid red 2px;
+}
+
+.facts_labelblue, .facts_valueblue {
+	border: solid blue 2px;
+}
+
+.tabs_table {
+	width: 95%;
+}
+
+.tab_cell_active {
+	background-image: url("images/greenwhitegradiant2.gif");
+	background-repeat: repeat;
+	border-left: outset #094215 2px;
+	border-top: outset #094215 2px;
+	border-right: outset #094215 2px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.tab_cell_inactive {
+	background-image: url("images/greenwhitegradiant.gif");
+	background-repeat: repeat;
+	border-left: solid #094215 2px;
+	border-top: solid #094215 2px;
+	border-right: outset #094215 2px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.tab_active_bottom {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	height: 5px;
+}
+
+.tab_inactive_bottom {
+	border-left: none;
+	border-right: none;
+	border-top: outset #094215 2px;
+	height: 5px;
+}
+
+.tab_inactive_bottom_right {
+	border-left: none;
+	border-right: none;
+	border-top: outset #094215 2px;
+	width: 33%;
+	height: 5px;
+}
+
+.tab_cell_inactive_empty {
+	background-image: url("images/greenwhitegradiant.gif");
+	background-repeat: repeat;
+	border-left: solid #093205 2px;
+	border-top: solid #093205 2px;
+	border-right: outset #093205 2px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.tab_cell_inactive_empty a {
+	color: #8bbf8b;
+}
+
+.name1 {
+	color: white;
+	font: bold 10px tahoma, arial, helvetica, sans-serif;
+}
+
+a:hover .name1 {
+	color: white;
+	font: bold 10px tahoma, arial, helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+a:hover .name2 {
+	color: white;
+	font: bold 12px tahoma, arial, helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+a:hover .nameZoom {
+	color: white;
+	font: bold 14px tahoma, arial, helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+.namered {
+	border: solid red 1px;
+}
+
+.nameblue {
+	border: solid blue 1px;
+}
+
+.details1 {
+	font: 10px tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.name2 {
+	color: white;
+	font: bold 12px tahoma, arial, helvetica, sans-serif;
+}
+
+.details2 {
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.nameZoom {
+	color: white;
+	font: bold 14px tahoma, arial, helvetica, sans-serif;
+}
+
+.detailsZoom {
+	font: 14px tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.details_label {
+	font-weight: bold;
+}
+
+.name_head {
+	color: #eeeeee;
+	font: bold 16px tahoma, arial, helvetica, sans-serif;
+	letter-spacing: .2px;
+}
+
+.date {
+	color: #bbffbb;
+	font-weight: bold;
+}
+
+.label, .field {
+	font: 11px tahoma, arial, helvetica, sans-serif;
+}
+
+.label {
+	font-weight: bold;
+}
+
+.error {
+	color: yellow;
+	font-family: tahoma, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.largeError {
+	color: yellow;
+	font: large tahoma, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.warning {
+	color: yellow;
+	font-family: tahoma, arial, helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.indent {
+	padding-left: 7px;
+}
+
+.indent_rtl {
+	padding-right: 7px;
+}
+
+.image {
+	height: 150px;
+	padding: 5px;
+	border: solid black 1px;
+}
+
+.gender_image {
+	padding-left: 3px;
+	padding-right: 3px;
+	border: none;
+	vertical-align: middle;
+}
+
+.pedigree_image_portrait, .pedigree_image_landscape {
+	float: left;
+	height: 50px;
+	border: solid black 1px;
+	margin-right: 3px;
+}
+
+.pedigree_image_portrait_rtl, .pedigree_image_landscape_rtl {
+	float: right;
+	height: 50px;
+	border: solid black 1px;
+	margin-left: 3px;
+}
+
+.pedigree_form {
+	width: 45px;
+}
+
+.thumbnail {
+	height: auto;
+	padding: 5px;
+}
+
+.icon, .adminicon {
+	border: none;
+	padding-left: 0pt;
+	padding-right: 5pt;
+}
+
+.link {
+	color: #bbffbb;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.sublinks_table {
+	background-image: url("images/greengradiant.gif");
+	background-repeat: repeat;
+	border: solid #00c000 1px;
+}
+
+.sublinks_cell {
+	font-size: 12px;
+	background-color: #256238;
+}
+
+.sublinks_table .icon {
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	display: none;
+}
+
+.menuitem .icon {
+	width: 50px;
+	height: 50px;
+	display: none;
+}
+
+.submenu .icon {
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	display: none;
+}
+
+.subheaders {
+	font: bold 16px tahoma, arial, helvetica, sans-serif;
+	text-indent: 20px;
+	margin-top: 15px;
+	vertical-align: bottom;
+}
+
+.age {
+	font-size: 9px;
+}
+
+.parentdeath {
+	border: thin solid #808080;
+	padding: 1px;
+}
+
+.source_citations {
+	display: none;
+}
+
+.lang_form {
+	margin-top: 0px;
+}
+
+.selected-option {
+	background-image: url("images/greengradiant.gif");
+	background-repeat: repeat;
+	color: white;
+}
+
+.user_links {
+	white-space: nowrap;
+}
+
+.contact_links {
+	text-align: center;
+}
+
+.hit-counter {
+	background: #01c100;
+	color: white;
+	font-weight: bold;
+}
+
+/* This is the original.
+ * It's not used, but it's left in in case you want to go back to it. */
+.flag {
+	width: 15px;
+	border: solid black 1px;
+}
+
+/* This one is for the currently active language. */
+.activeflag {
+	height: 15px;
+	border: none;
+	opacity: 1;		/* IE's support is different */
+}
+
+/* This one is for an inactive language when the mouse is hovering over it */
+.brightflag {
+	height: 15px;
+	border: none;
+	opacity: 1;		/* IE's support is different */
+}
+
+/* This one is for an inactive language when the mouse is not hovering over it */
+.dimflag {
+	height: 15px;
+	border: none;
+	opacity: 0.5;		/* IE's support is different */
+}
+
+.border1 {
+	border: solid black 1px;
+}
+
+.header_select {
+	font-size: 9pt;
+}
+
+.favorites_form {
+	margin-top: 0px;
+}
+
+.help {
+	font-weight: bold;
+	cursor: help;
+}
+
+.menuitem, .menuitem_rtl {
+	color: #555555;
+	background-image: url("images/greenwhitegradiant.gif");
+	background-repeat: repeat;
+	border: solid white 1px;
+	height: 45px;
+	text-decoration: none;
+	font: bold 11px tahoma, arial, helvetica, sans-serif;
+	text-align: center;
+	padding: 1px;
+}
+
+.menuitem_hover, .menuitem_hover_rtl {
+	color: black;
+	background-image: url("images/greenwhitegradiant.gif");
+	background-repeat: repeat;
+	border: solid black 1px;
+	height: 45px;
+	text-decoration: none;
+	font: bold 11px tahoma, arial, helvetica, sans-serif;
+	text-align: center;
+	padding: 1px;
+}
+
+.submenu, .submenu_rtl {
+	visibility: hidden;
+	position: absolute;
+	z-index: 100;
+	color: black;
+	/* background-image: url("images/greenwhitegradiant2.gif"); */
+	background-repeat: repeat-x;
+	background-color: #094215;
+	border: solid white 1px;
+	text-decoration: none;
+	font: 11px tahoma, arial, helvetica, sans-serif;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.submenuitem, .submenuitem_rtl {
+	color: #555555;
+	background-image: url("images/transparent.gif");
+	text-decoration: none;
+	font: 11px tahoma, arial, helvetica, sans-serif;
+	white-space: nowrap;
+	padding: 1px;
+}
+
+.submenuitem, .submenuitem_hover {
+	text-align: left;
+}
+
+.submenuitem_rtl, .submenuitem_hover_rtl {
+	text-align: right;
+}
+
+.submenuitem_hover, .submenuitem_hover_rtl {
+	color: black;
+	background-image: url("images/transparent.gif");
+	text-decoration: underline;
+	font: 11px tahoma, arial, helvetica, sans-serif;
+	white-space: nowrap;
+	padding: 1px;
+}
+
+.submenuitem a, .submenuitem_rtl a, .submenuitem_hover a, .submenuitem_hover_rtl a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.news_box {
+	background-image: url("images/greenwhitegradiant2rev.gif");
+	background-repeat: repeat;
+	border: solid #00c0aa 1px;
+}
+
+.news_title {
+	font: bold 14px tahoma, arial, helvetica, sans-serif;
+	color: white;
+}
+
+.news_date {
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	color: white;
+}
+
+.current_day {
+	font-weight: bold;
+	font-size: 16px;
+	color: #00c000;
+}
+
+.cal_day {
+	float: left;
+	font-weight: bold;
+}
+
+.rtl_cal_day {
+	direction: rtl;
+	float: right;
+	color: #66dd99;
+	font-weight: bold;
+}
+
+.helpheader {
+	font: bold 16px tahoma, arial, helvetica, sans-serif;
+	color: white;
+}
+
+.helpstart {
+	font: bold 14px tahoma, arial, helvetica, sans-serif;
+	color: #88ff88;
+	text-decoration: none;
+}
+
+.helptext {
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	color: white;
+}
+
+#content {
+	margin-left: 1px;
+}
+
+#footer {
+	clear: both;
+	color: white;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+}
+
+/*-- index.php specific style sheets -- */
+.small_inner_block {
+	max-height: 200px;
+	overflow: auto;
+	font: 10px tahoma, arial, helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.normal_inner_block {
+	overflow: auto;
+}
+
+.block {
+	background-color: #256238;
+	color: white;
+	border: solid #094215 1px;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	vertical-align: top;
+	margin-bottom: 5px;
+	padding: 1px;
+}
+
+#index_main_blocks {
+	clear: none;
+	width: 66%;
+	float: left;
+}
+
+#index_small_blocks {
+	clear: none;
+	width: 33%;
+	float: right;
+}
+
+#index_full_blocks {
+	clear: none;
+	width: 100%;
+}
+
+#random_picture {
+	text-align: center;
+}
+
+/*-- pedigree chart specific stylesheets --*/
+#pedigree_chart {
+	position: relative;
+	top: -240px;
+	left: 0px;
+	width: 100%;
+}
+
+/*-- pedigree chart rtl specific stylesheets --*/
+#pedigree_chart_rtl {
+	position: relative;
+	float: right;
+	top: -240px;
+	right: 10px;
+	width: 100%;
+}
+
+/*-- descendancy chart specific stylesheets --*/
+#descendancy_chart ul {
+	background-image: url(images/vline.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+	list-style: none;
+	margin: 0px 0px 5px 15px; /* top right bottom left */
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+#descendancy_chart li {
+	list-style: none;
+	margin: 0px 0px 0px -15px; /* top right bottom left */
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+/*-- descendancy chart rtl specific stylesheets --*/
+#descendancy_chart_rtl ul {
+	background-image: url(images/vline.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+	list-style: none;
+	margin: 0px 15px 5px 0px; /* top right bottom left */
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#descendancy_chart_rtl li {
+	list-style: none;
+	margin: 0px -15px 0px 0px; /* top right bottom left */
+	padding: 0px 0px 0px 0px; /* top right bottom left */
+}
+
+/*-- relationship chart specific stylesheets --*/
+#relationship_chart {
+	position: relative;
+	top: -40px;
+	left: 0px;
+}
+
+#relationship_chart_rtl {
+	position: relative;
+	top: -40px;
+	right: 10px;
+}
+
+/*-- ancestry chart specific stylesheets --*/
+#ancestry_chart ul {
+	background-image: url(images/vline.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+	list-style: none;
+	margin: 0px 0px 0px 15px; /* top right bottom left */
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+#ancestry_chart li {
+	list-style: none;
+	margin: 0px 0px 2px -15px; /* top right bottom left */
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+/*-- ancestry chart rtl specific stylesheets --*/
+#ancestry_chart_rtl ul {
+	background-image: url(images/vline.gif);
+	background-repeat: repeat-y;
+	background-position: right top;
+	list-style: none;
+	margin: 0px 15px 0px 0px; /* top right bottom left */
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#ancestry_chart_rtl li {
+	list-style: none;
+	margin: 0px -15px 2px 0px; /* top right bottom left */
+	padding: 0px 2px 0px 0px; /* top right bottom left */
+}
+
+/*-- relationship chart specific stylesheets --*/
+#relationship_chart {
+	position: relative;
+	top: -40px;
+	left: 0px;
+}
+
+#relationship_chart_rtl {
+	position: relative;
+	top: -40px;
+	right: 10px;
+}
+
+/*-- timeline chart specific styles --*/
+#timeline_chart {
+	position: relative;
+	top: 0px;
+}
+
+.timeline_table {
+}
+
+.person0 {
+	background-color: #003300;
+	border: outset white 1px;
+	vertical-align: top;
+}
+
+.person1 {
+	background-color: #115511;
+	border: outset white 1px;
+	vertical-align: top;
+}
+
+.person2 {
+	background-color: #227722;
+	border: outset white 1px;
+	vertical-align: top;
+}
+
+.person3 {
+	background-color: #339933;
+	border: outset white 1px;
+	vertical-align: top;
+}
+
+.person4 {
+	background-color: #44aa44;
+	border: outset white 1px;
+	vertical-align: top;
+}
+
+.person5 {
+	background-color: #66aa77;
+	border: outset white 1px;
+	vertical-align: top;
+}
+
+.listlog {
+	line-height: 20pt;
+	color: #bbffbb;
+	font-family: tahoma, arial, helvetica, sans-serif;
+}
+
+input, button, textarea {
+	border-top-color: white;
+	border-left-color: white;
+	border-right-color: #000066;
+	border-bottom-color: #000066;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+}
+
+input, textarea {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+select {
+	border-top-color: #84beff;
+	border-left-color: #84beff;
+	border-right-color: #84beff;
+	border-bottom-color: #84beff;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+}
+
+form {
+	font: 12px tahoma, arial, helvetica, sans-serif;
+}
+
+h2 {
+	color: #bbffbb;
+	font: bold 18px tahoma, arial, helvetica, sans-serif;
+}
+
+h4 {
+	color: #bbffbb;
+	font: bold 12px tahoma, arial, helvetica, sans-serif;
+}
+
+.formField {
+	font: 12px tahoma, arial, helvetica, sans-serif;
+}
+
+.starredname {
+	text-decoration: underline;
+}
+
+.search_hit {
+	background-color: #00dd00;
+}
+
+/* Style for the top and bottom bar */
+.topbottombar {
+	color: white;
+	background-image: url("images/greenwhitegradiant2.gif");
+	background-repeat: repeat;
+	font: bold 12px tahoma, arial, helvetica, sans-serif;
+	padding: 4px;
+	text-align: center;
+}
+
+/* Style for the subbar */
+.subbar {
+	background-color: #256238;
+	color: white;
+	border: solid #094215 1px;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	padding: 3px;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+/* Style for the descriptionbox */
+.descriptionbox {
+	background-color: #256238;
+	color: white;
+	border: solid #094215 1px;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	padding: 4px;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+/* Style for the optionbox */
+.optionbox {
+	background-color: #256238;
+	color: white;
+	border: solid #094215 1px;
+	font: 12px tahoma, arial, helvetica, sans-serif;
+	vertical-align: top;
+	white-space: nowrap;
+	padding: 3px;
+}
+
+.vmiddle {
+	vertical-align: middle;
+}
+
+/* Colors */
+.red {
+	color: #FFFF00;
+}
+
+.rela {
+	opacity: 0.67;
+}
+
+/* Text direction */
+.ltr {
+	text-align: left;
+}
+
+.rtl {
+	text-align: right;
+	direction: rtl;
+}
+
+/* Width settings */
+.width10 {
+	width: 10%;
+}
+
+.width20 {
+	width: 20%;
+}
+
+.width25 {
+	width: 25%;
+}
+
+.width30 {
+	width: 30%;
+}
+
+.width33 {
+	width: 33%;
+}
+
+.width40 {
+	width: 40%;
+}
+
+.width50 {
+	width: 50%;
+}
+
+.width60 {
+	width: 60%;
+}
+
+.width66 {
+	width: 66%;
+}
+
+.width70 {
+	width: 70%;
+}
+
+.width75 {
+	width: 75%;
+}
+
+.width80 {
+	width: 80%;
+}
+
+.width90 {
+	width: 90%;
+}
+
+.width100 {
+	width: 100%;
+}
+
+/* Font sizes */
+.font11 {
+	font-size: 11px;
+}
+
+.font9 {
+	font-size: 9px;
+}
+
+/* Chart styles */
+.pedigree_table {
+	margin: 0;
+}
+
+/* Message box */
+.messagebox {
+	background-color: #235f35;
+	border: solid #094215 1px;
+}
+
+/* Change indicators */
+.change_new {
+	border: solid blue 2px;
+}
+
+.change_old {
+	border: solid red 2px;
+}
+
+.door {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.door dd {
+	margin: 2px 2px 2px 2px;
+	padding: 2px 6px 2px 6px;
+	height: 100%; float: left;
+	font-weight: bold;
+	display: none;
+}
+
+.note_details {
+	display: none;
+}
+
+a.showit {
+	position: relative;
+	z-index: 24;
+	color: black;
+	text-decoration: none;
+}
+
+a.showit:hover {
+	z-index: 25;
+	background-color: #ffff9b;
+	cursor: crosshair;
+}
+
+a.showit span {
+	display: none;
+}
+
+a.showit:hover span {
+	display: block;
+	position: absolute;
+	top: 22px;
+	left: 0px;
+	width: 225px;
+	border-style: outset;
+	border-left: 15px outset #1f1f1f;
+	border-top: 2px solid #1f1f1f;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	padding: 3px;
+	background: #4f4f4f;
+	color: white;
+	font: 15px tahoma, arial, helvetica, sans-serif;
+	text-align: left;
+	opacity: .85;
+	z-index: 5;
+	white-space: normal;
+}
+
+.lifespan_people span:first-letter {
+	font: bold 16px tahoma, arial, helvetica, sans-serif;
+	font-variant: small-caps;
+	padding: 1px;
+}
+
+.lifespan_outer {
+	position: relative;
+	width: 99.5%;
+	height: 600px;
+	overflow: hidden;
+	border: solid blue 1px;
+}
+
+.lifespan_outer a {
+	color: black;
+}
+
+.lifespan_outer a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.lifespan_timeline {
+	position: absolute;
+	width: 100%;
+	left: -10px;
+	top: -65px;
+	z-index: 2;
+	background-color: white
+}
+
+.lifespan_people {
+	position: absolute;
+	width: 500px;
+	left: -10px;
+	top: -60px;
+	z-index: 1;
+}
+.iwstyle {
+	color: white;
+	background-image: url("images/greengradiant.gif");
+	padding:10px;
+	width:360px; /*this is from the original googlemap.php file so should be left in */
+	/*background-color: #FFFFFF;*/
+}
+.iwstyle a {
+}
+.iwstyle a:hover {
+}
+
+#map_nav {
+	position: relative;
+	top: -484px;
+	left: 101%;
+}
+
+#tree_nav {
+	position: relative;
+	top: -584px;
+	left: 90%;
+	z-index: 100;
+}
+
+	#map_type
+	{
+		margin: 0;
+		padding: 0;
+		font-family: Arial;
+		font-size: 10px;
+		list-style: none;
+	}
+	#map_type li
+	{
+		display: block;
+		width: 70px;
+		text-align: center;
+		padding: 2px;
+		border: 1px solid black;
+		cursor: pointer;
+		float: left;
+		margin-left: 2px;
+	}
+	#map_type li.non_active
+	{
+		background: white;
+		color: black;
+		font-weight: normal;
+	}
+	#map_type li.active
+	{
+		background: gray;
+		color: white;
+		font-weight: bold;
+	}
+	#map_type li:hover
+	{
+		background: #ddd;
+	}
+
+/* Tag Cloud styles*/
+.tag_cloud_table {
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tag_cloud {
+	font-family: tahoma, arial, helvetica, sans-serif;
+	text-align: justify;
+	padding: 10px 5px 10px 15px; /* top right bottom left */
+}
+
+.tag_cloud_sub {
+	font-family: tahoma, arial, helvetica, sans-serif;
+	font-size: 8px;
+	color:#808080;
+}
+/* End of Tag Cloud styles*/
+
+/* Autocomplete styles*/
+.ac_input {
+	background-color: #EEE8AA;
+}
+
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: #356238;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/*
+	if width will be 100% horizontal scrollbar will apear
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/*
+	it is very important, if line-height not setted or setted
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 14px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url(../../images/indicator.gif) right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #194215;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+/* End of Autocomplete styles*/
+
+/* Flyout menu Styles */
+.flyout {
+	color:#ffffff;
+	text-align: left;
+	margin-top: -20px;
+	right: 210px;
+	padding: 3px;
+}
+.flyoutrtl {
+	color:#ffffff;
+	text-align: right;
+	margin-top: -20px;
+	left: 210px;
+	padding: 3px;
+}
+/* End of Flyout Menu styles*/
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.wrap {
+	white-space: normal;
+}
+
+ul.clist {
+	list-style-image: none;
+	margin: 0px;
+}
+
+.menu_separator img {
+	height: 3px;
+	width: 8em;
+}
+
+.statistics_chart {
+	background-color: #b7e3b5;
+	text-align: center;
+}
+
+.gchart {
+	border: solid #094215 1px;
+}
+
+.execution_stats {
+	padding-top: 12px;
+	text-align: center;
+}

@@ -1,0 +1,18 @@
+
+Version 0.2beta: April 5th, 2008
+
+ * Replaced Word Search Factory V3 support, was awful before, I don't know what I was thinking.
+   You need to replace spaces in the filenames with an underscore.  Also remove any ' you find.
+   Also fixed the url, seems they changed it.
+   http://www.schoolhousetech.com/vocabulary/WordLists.aspx
+
+ * Added a configuration file for greater control.  Includes a number of new options.
+   Please see the config.ini file for a description of all options.
+
+ * Fixed a bug in the CSS color parsing code, it would crash on the rgb(255,255,255) construct.
+
+ * Fixed a serious security issue.
+
+Version (unnamed): November 15th, 2005
+
+ * First release.

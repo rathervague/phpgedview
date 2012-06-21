@@ -1,0 +1,6 @@
+USE: 
+Copy this query into any SQL program to completely erase all Research Assistant Data. All data will be lost and this process cannot be un-done.
+
+QUERY:
+
+drop table pgv_tasks, pgv_individualsuggestedresearch, pgv_individualtask, pgv_comments, pgv_suggestedresearch, pgv_tasksource, pgv_folders;

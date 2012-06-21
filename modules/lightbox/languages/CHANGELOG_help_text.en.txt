@@ -1,0 +1,132 @@
+LANGUAGE FILE CHANGELOG -- Lightbox Module
+
+# $Id: CHANGELOG_help_text.en.txt 4195 2008-10-30 11:03:50Z fisharebest $
+
+Use this file to follow the changes made to the English language files
+between different versions of phpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / text was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+For massive changes, the variable names should be listed in the order in which they
+occur in the respective language files.
+
+
+// Added in VERSION 4.1.6
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+----------------------------------------------------------------------------------------
+*$pgv_lang["mediatab_help"]							14 Oct 2008				w
++$pgv_lang["LIGHTBOX_CONFIG"]						14 Oct 2008				A 
++$pgv_lang["LIGHTBOX_CONFIG_help"]					14 Oct 2008				A 
+
+*$pgv_lang["lb_general_help1"] 						27 Jun 2008				w 
+*$pgv_lang["lb_general_help"] 						26 Jun 2008				W 
+*$pgv_lang["lb_general_help1"] 						26 Jun 2008				W 
+-$pgv_lang["lb_general_help1a"] 					26 Jun 2008				D 
+-$pgv_lang["lb_general_help1b"] 					26 Jun 2008				D 
+-$pgv_lang["lb_general_help1c"] 					26 Jun 2008				D 
+-$pgv_lang["lb_general_help1d"] 					26 Jun 2008				D 
+*$pgv_lang["lb_general_help2"] 						26 Jun 2008				W 
+-$pgv_lang["lb_general_help2a"] 					26 Jun 2008				D 
+*$pgv_lang["lb_general_help3"] 						26 Jun 2008				W 
+-$pgv_lang["lb_general_help3a"] 					26 Jun 2008				D 
+-$pgv_lang["lb_general_help3b"] 					26 Jun 2008				D 
+-$pgv_lang["lb_general_help3c"] 					26 Jun 2008				D 
+*$pgv_lang["lb_general_help4"] 						26 Jun 2008				W 
+-$pgv_lang["lb_general_help4a"] 					26 Jun 2008				D 
+-$pgv_lang["lb_general_help5"] 						26 Jun 2008				D 
+-$pgv_lang["lb_general_help5a"] 					26 Jun 2008				D 
+*$pgv_lang["lb_general_help6"] 						26 Jun 2008				W 
+-$pgv_lang["lb_general_help6a"] 					26 Jun 2008				D 
+*$pgv_lang["lb_general_help7"] 						26 Jun 2008				W 
+-$pgv_lang["lb_general_help7a"] 					26 Jun 2008				D 
+*$pgv_lang["lb_general_help8"] 						26 Jun 2008				W 
+-$pgv_lang["lb_general_help8a"] 					26 Jun 2008				D 
+*$pgv_lang["lb_general_help9"] 						26 Jun 2008				W 
+-$pgv_lang["lb_general_help9a"] 					26 Jun 2008				D 
+*$pgv_lang["lb_general_help10"] 					26 Jun 2008				W 
+-$pgv_lang["lb_general_help10a"] 					26 Jun 2008				D 
++$pgv_lang["lb_generalLegend"]						24 Jun 2008				A
++$pgv_lang["lb_general_help"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help1"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help1a"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help1b"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help1c"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help1d"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help2"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help2a"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help3"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help3a"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help3b"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help3c"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help4"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help4a"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help5"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help5a"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help6"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help6a"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help7"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help7a"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help8"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help8a"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help9"] 						24 Jun 2008				A 
++$pgv_lang["lb_general_help9a"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help10"] 					24 Jun 2008				A 
++$pgv_lang["lb_general_help10a"] 					24 Jun 2008				A 
+
+*$pgv_lang["lb_tt_balloonLegend"]					24 Jun 2008				w
+*$pgv_lang["lb_tt_balloon_help"]					24 Jun 2008				w
+
++$pgv_lang["lb_tt_balloonLegend"]					18 Jun 2008				A
++$pgv_lang["lb_tt_balloon_help"]					18 Jun 2008				A
+
+
+
+VERSION 4.1.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+----------------------------------------------------------------------------------------
+*$pgv_lang["lb_transitionLegend"]					26 Oct 2007				W
+*$pgv_lang["lb_transition_help"] 					26 Oct 2007				W
++$pgv_lang["lb_transitionLegend"]					25 Oct 2007				A
++$pgv_lang["lb_transition_help"] 					25 Oct 2007				A
+
+
+VERSION 4.1.2
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+----------------------------------------------------------------------------------------
+*$pgv_lang["lb_music_fileLegend"]					12 Oct 2007				W
+*$pgv_lang["lb_music_file_help"]					12 Oct 2007				W	
+*$pgv_lang["mediatab_help"]							11 Oct 2007				w
++$pgv_lang["mediatabLegend"]						09 Oct 2007				A
++$pgv_lang["mediatab_help"]							09 Oct 2007				A
++$pgv_lang["lb_al_head_linksLegend"]				09 Oct 2007				A
++$pgv_lang["lb_al_head_links_help"]					09 Oct 2007				A
++$pgv_lang["lb_al_thumb_linksLegend"]				09 Oct 2007				A
++$pgv_lang["lb_al_thumb_links_help"]				09 Oct 2007				A
++$pgv_lang["lb_ml_thumb_linksLegend"]				09 Oct 2007				A
++$pgv_lang["lb_ml_thumb_links_help"]				09 Oct 2007				A
++$pgv_lang["lb_ss_speedLegend"]						09 Oct 2007				A
++$pgv_lang["lb_ss_speed_help"]						09 Oct 2007				A
++$pgv_lang["lb_music_fileLegend"]					09 Oct 2007				A
++$pgv_lang["lb_music_file_help"]					09 Oct 2007				A

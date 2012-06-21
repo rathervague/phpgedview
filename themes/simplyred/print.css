@@ -1,0 +1,624 @@
+/**
+ * Print for SimplyRed theme
+ *
+ * Use this stylesheet to customize the display of your site.
+ * To learn more about CSS visit http://www.w3.org/TR/REC-CSS2/
+ *
+ * phpGedView: Genealogy Viewer
+ * Copyright (C) 2002 to 2010  PGV Development Team.  All rights reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+ *
+ * $Id: print.css 6781 2010-01-19 01:43:18Z canajun2eh $
+ *
+ * @package PhpGedView
+ * @subpackage Themes
+ */
+
+.something {
+	/*empty style to make sure that the BODY style is not ignored */ }
+#backprint {
+	display:none;
+}
+BODY {
+	COLOR: #000000;
+	background-color: #FFFFFF;
+	font-family: times, times new roman, serif;
+	font-size: 13px;
+	margin: 0px; }
+
+A {
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	color: black; }
+
+A.title {
+	font-size: 32px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Arial, sans-serif; }
+
+TH {
+	font-weight: 100; }
+
+ul{
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 8px; }
+
+.button {
+	width: 60px }
+
+.headerimg { background-repeat: no-repeat; }
+
+.person_box {
+	border: solid #000000 1px; }
+
+.person_boxF {
+	border: solid #000000 1px; }
+
+.person_boxNN {
+	border: solid #000000 1px; }
+
+.list_table {
+	 }
+
+.center {
+	text-align: center; }
+
+table.center {
+	margin-left: auto;
+	margin-right: auto; }
+
+.list_label {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	white-space: nowrap; }
+
+.list_label_wrap {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center; }
+
+.list_value {
+	border: solid #420915 1px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	vertical-align: top;
+	white-space: nowrap; }
+
+.list_value_wrap {
+	border: solid #420915 1px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	vertical-align: top; }
+
+.list_item {
+	font-size:10px;
+	/* white-space: nowrap; */ }
+
+.facts_table {
+	width: 100%;}
+
+.facts_label {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	width: 20%;
+	text-align: center; }
+
+.facts_label02 {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	/* width: 20%; */
+	text-align: center;
+	font-weight: bold; }
+
+.facts_label03 {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	/* width: 20%; */
+	text-align: center;
+	font-weight: bold; }
+
+.facts_value {
+	border: solid #420915 1px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	/*text-align: left;*/ }
+
+.facts_value02 {
+	border: solid #420915 1px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	/*text-align: left;*/ }
+
+.facts_labelred {
+	border: solid red 2px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	width: 20%;
+	text-align: center; }
+
+.facts_valuered {
+	border: solid red 2px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	/*text-align: left;*/ }
+
+.facts_labelblue {
+	border: solid blue 2px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	width: 20%;
+	text-align: center; }
+
+.facts_valueblue {
+	border: solid blue 2px;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	padding: 4px 4px 4px 4px;
+	/*text-align: left;*/ }
+
+.tabs_table {
+	width: 95%; }
+
+.tab_cell_active {
+	border-left: outset #420915 2px;
+	border-top: outset #420915 2px;
+	border-right: outset #420915 2px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10pt; }
+
+.tab_cell_inactive {
+	border-left: solid #420915 2px;
+	border-top: solid #420915 2px;
+	border-right: outset #420915 2px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 10pt; }
+
+.tab_active_bottom {
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	height: 5px; }
+
+.tab_inactive_bottom {
+	border-left: none;
+	border-right: none;
+	border-top: outset #420915 2px;
+	height: 5px; }
+
+.tab_inactive_bottom_right {
+	border-left: none;
+	border-right: none;
+	border-top: outset #420915 2px;
+	width: 33%;
+	height: 5px; }
+
+.name1 {
+	FONT: bold 10px verdana, helvetica, arial, sans-serif;
+	color: black; }
+
+.namered {
+	border: solid red 1px; }
+
+.nameblue {
+	border: solid blue 1px; }
+
+.details1 {
+	FONT: 10px times, times new roman, serif;
+	text-decoration: none; }
+
+.name2 {
+	FONT: bold 12px verdana, helvetica, arial, sans-serif;
+	color: black; }
+
+.details2 {
+	FONT: 12px times, times new roman, serif;
+	text-decoration: none; }
+
+.nameZoom {
+	FONT: bold 14px verdana, helvetica, arial, sans-serif; }
+
+.detailsZoom {
+	FONT: 14px times, times new roman, serif;
+	text-decoration: none; }
+
+.details_label {
+	text-decoration: underline; }
+
+.name_head {
+	FONT: bold 16px verdana, helvetica, arial, sans-serif;
+	letter-spacing: .2px; }
+
+.date {
+	font-weight: bold; }
+
+.label {
+	 }
+
+.field {
+	 }
+
+.error {
+	font-family: times, times new roman, serif;
+	font-weight: bold; }
+
+.warning {
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-weight: bold; }
+
+.indent {
+	padding-left: 7px; }
+
+.indent_rtl {
+	padding-right: 7px; }
+
+.image {
+	height: 150px;
+	padding: 5px;
+	border: solid black 1px; }
+
+.gender_image {
+	height: 9px;
+	width: 9px;
+	margin-right: 3px; }
+
+.pedigree_image_portrait {
+	float: left;
+	height: 60px;
+	border: solid black 1px;
+	margin-right: 3px; }
+
+.pedigree_image_portrait_rtl {
+	float: right;
+	height: 60px;
+	border: solid black 1px;
+	margin-left: 3px; }
+
+.pedigree_image_landscape {
+	float: left;
+	width: 60px;
+	border: solid black 1px;
+	margin-right: 3px; }
+
+.pedigree_image_landscape_rtl {
+	float: right;
+	width: 60px;
+	border: solid black 1px;
+	margin-left: 3px; }
+
+.pedigree_form {
+	width: 45px; }
+
+.thumbnail {
+	height: auto;
+	padding: 5px; }
+
+.icon {
+	border: none; }
+
+.link {
+	font-size: 11px;
+	text-align: center; }
+
+.sublinks_table {
+	border: solid #c00000 1px; }
+
+.sublinks_cell {
+	font-size: 12px; }
+
+.subheaders {
+	font-size: 16px;
+	font-weight: bold;
+	text-indent: 20px;
+	margin-top: 15px;
+	vertical-align: bottom;
+	font-family: Arial, sans-serif; }
+
+.age {
+	font-size: 9px; }
+
+.source_citations {
+	display: none; }
+
+.footer {
+	font-family: times, times new roman, serif;
+	font-size: 12px; }
+
+.lang_form {
+	margin-top: 0px; }
+
+.user_links {
+	white-space: nowrap; }
+
+.contact_links {
+	text-align: center; }
+
+.flag {
+	width: 15px;
+	border: solid black 1px; }
+
+.header_select {
+	font-size: 9pt; }
+
+.favorites_form {
+	margin-top: 0px; }
+
+.help {
+	font-weight: bold;
+	cursor: help; }
+
+.menuitem {
+	border: solid #FFFFFF 1px;
+	height: 45px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	padding: 1px; }
+
+.menuitem_hover {
+	border: solid #000000 1px;
+	height: 45px;
+	text-decoration: underline;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	padding: 1px; }
+
+.submenu {
+	border: solid #000000 2px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	white-space: nowrap; }
+
+.submenuitem {
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	white-space: nowrap;
+	text-align: left;
+	padding: 1px; }
+
+.submenuitem_hover	{
+	text-decoration: underline;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	white-space: nowrap;
+	text-align: left;
+	padding: 1px; }
+
+.news_title {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold; }
+
+.news_date {
+	font-family: Arial, sans-serif;
+	font-size: 12px; }
+
+.current_day {
+	font-weight: bold;
+	font-size: 16px; }
+
+.cal_day {
+	float: left;
+	font-weight: bold; }
+
+.rtl_cal_day {
+	direction: rtl;
+	float: right;
+	font-weight: bold; }
+
+.helpheader {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: bold; }
+
+.helpstart {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight : bold;
+	text-decoration : none; }
+
+.helptext {
+	font-family: Arial, sans-serif;
+	font-size: 12px; }
+
+#content {
+	margin-left: 1px; }
+
+/*-- index.php specific style sheets -- */
+.small_inner_block {
+	height: 250px;
+	overflow: auto;
+	FONT: 10px times, times new roman, serif;
+	text-decoration: none; }
+
+.block {
+	border: solid #420915 1px;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	vertical-align: top;
+	margin: 1px;
+	padding: 1px; }
+
+#index_title {
+	float: left;
+	clear: none;
+	width: 74%; }
+
+#index_main_blocks {
+	clear: none;
+	width: 74%;
+	float: left; }
+
+#index_small_blocks {
+	clear: none;
+	width: 25%;
+	float: right; }
+
+#random_picture {
+	text-align: center; }
+
+#random_picture .small_inner_block {
+	height: 200px; }
+
+/*-- pedigree chart specific stylesheets --*/
+#pedigree_chart {
+	position: absolute;
+	top: 240px;
+	left: 0px; }
+
+/*-- pedigree chart rtl specific stylesheets --*/
+#pedigree_chart_rtl {
+	position: absolute;
+	float: right;
+	top: 240px;
+	right: 0px; }
+
+/*-- descendancy chart specific stylesheets --*/
+#descendancy_chart ul {
+	list-style: none;
+	margin: 0 auto 0 auto;
+	padding: 0 auto 0 auto;
+	border-left: thin solid Black; }
+
+#descendancy_chart li {
+	list-style: none; }
+
+/*-- descendancy chart rtl specific stylesheets --*/
+#descendancy_chart_rtl ul {
+	border-left: none;
+	border-right: thin solid Black; }
+
+/*-- relationship chart specific stylesheets --*/
+#relationship_chart {
+	position: relative;
+	top: -40px;
+	left: 0px; }
+
+/*-- timeline chart specific styles --*/
+.timeline_table {
+   }
+
+.person0	{
+	border: outset #FFFFFF 1px;
+	vertical-align: top;
+	padding: 3px; }
+
+.person1	{
+	border: outset #FFFFFF 1px;
+	vertical-align: top;
+	padding: 3px; }
+
+.person2	{
+	border: outset #FFFFFF 1px;
+	vertical-align: top;
+	padding: 3px; }
+
+.person3	{
+	border: outset #FFFFFF 1px;
+	vertical-align: top;
+	padding: 3px; }
+
+.person4	{
+	border: outset #FFFFFF 1px;
+	vertical-align: top;
+	padding: 3px; }
+
+.person5	{
+	border: outset #FFFFFF 1px;
+	vertical-align: top;
+	padding: 3px; }
+
+.listlog	{
+	line-height: 20pt;
+	font-family: Arial, sans-serif; }
+
+.formField {
+	font-family: Arial, sans-serif;
+	font-size: 12px; }
+
+div#header, div#footer, .noprint {
+  display:none !important;}
+
+form {
+  display: none;}
+
+/* Colors */
+.red {
+	color: #FF0000; }
+
+
+/* Text direction */
+.ltr {
+	text-align: left; }
+
+.rtl {
+	text-align: right; }
+
+/* Width settings */
+.width20 {
+	width: 20%; }
+
+.width40 {
+	width: 40%; }
+
+.width60 {
+	width: 60%; }
+
+.width80 {
+	width: 80%; }
+
+.width100 {
+	width: 100%; }
+
+/* Font sizes */
+.font11 {
+	font-size: 11px; }
+.lifespan_outer {
+	position: relative;
+	width: auto;
+	height: auto;
+	overflow: visible;
+	border: none;
+}
+
+.lifespan_people {
+	position: absolute;
+	width: auto;
+	left: -10px;
+	top: -60px;
+	z-index:1;
+}

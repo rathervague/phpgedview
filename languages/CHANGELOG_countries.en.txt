@@ -1,0 +1,71 @@
+PHPGEDVIEW LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_countries.en.txt 6978 2010-09-03 21:40:15Z canajun2eh $
+
+For information on changes prior to the release of PGV 4.2.0 (16 Nov. 2008), please 
+refer to the files in ZIP file "languages/CHANGELOG_bef.20081117.zip"
+
+Use this file to follow the changes made to the English language files
+between different versions of PhpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_admin.en.txt
+		CHANGELOG_configure_help.en.txt
+		CHANGELOG_countries.en.txt
+		CHANGELOG_editor.en.txt
+		CHANGELOG_facts.en.txt
+		CHANGELOG_faqlist.en.txt
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / translation was changed
+# $pgv_lang["text"] / keyword was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	R - keyword was renamed (no translation changes required)
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+
+
+VERSION 4.2.4
+
+?$countries["whatever"]								dd Monthname, year		Change codes and comments
+----------------------------------------------------------------------------------------
+
+
+VERSION 4.2.3
+
+?$countries["whatever"]								dd Monthname, year		Change codes and comments
+----------------------------------------------------------------------------------------
+
+
+VERSION 4.2.2
+
+?$countries["whatever"]								dd Monthname, year		Change codes and comments
+----------------------------------------------------------------------------------------
+
+
+VERSION 4.2.1
+
+?$countries["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+$countries["IOM"]									22 Feb 2009				A
+
+
+VERSION 4.2.0
+
+?$countries["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------

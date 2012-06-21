@@ -1,0 +1,22 @@
+<!-- THIS FILE MUST BE SAVED IN UTF-8 ENCODING (or some special characters will be lost) -->
+<!-- @version $Id: NZL_West-Coast_Westland.txt 4195 2008-10-30 11:03:50Z fisharebest $ -->
+<!-- @see http://xtabs.stats.govt.nz/eng/statsbyarea/area_main.asp -->
+Bruce Bay-Paringa 
+Fox Glacier 
+Franz Josef 
+Haast 
+Harihari 
+Hokitika Rural 
+Hokitika Urban 
+Hokitika Valley 
+Kaniere 
+Karangarua 
+Kumara 
+Otira 
+Ross 
+Taramakau 
+Totara River 
+Waimea-Arahura 
+Waio 
+Waitaha 
+Whataroa 

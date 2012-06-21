@@ -1,0 +1,26 @@
+##
+##
+##        Mod title:  Easy Custom Smilies
+##
+##      Mod version:  0.5.3
+##   Works on PunBB:  Should work on every version
+##     Release date:  2006-02-01
+##           Author:  El Bekko
+##
+##      Description:  This tool adds the possibility to
+##					  easily add smileys without having
+##					  to edit your parser.php every time.
+##
+##   Affected files:  parser.php
+##
+##       Affects DB:  Yes
+##
+##            Notes:  Should work fine now.
+##					  Requires FTP CHMOD access to img/smilies folder.
+##
+##       DISCLAIMER:  Please note that "mods" are not officially supported by
+##                    PunBB. Installation of this modification is done at your
+##                    own risk. Backup your forum database and any and all
+##                    applicable files before proceeding.
+##
+##

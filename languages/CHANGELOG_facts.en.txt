@@ -1,0 +1,119 @@
+PHPGEDVIEW LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_facts.en.txt 6977 2010-08-25 01:06:08Z canajun2eh $
+
+For information on changes prior to the release of PGV 4.2.0 (16 Nov. 2008), please 
+refer to the files in ZIP file "languages/CHANGELOG_bef.20081117.zip"
+
+Use this file to follow the changes made to the English language files
+between different versions of PhpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_admin.en.txt
+		CHANGELOG_configure_help.en.txt
+		CHANGELOG_countries.en.txt
+		CHANGELOG_editor.en.txt
+		CHANGELOG_facts.en.txt
+		CHANGELOG_faqlist.en.txt
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / translation was changed
+# $pgv_lang["text"] / keyword was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	R - keyword was renamed (no translation changes required)
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+
+VERSION 4.2.4
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
++$factarray["_BRTM:PLAC"]							07 Jan 2010				A
++$factarray["_BRTM:DATE"]							07 Jan 2010				A
++$factarray["_BRTM:SOUR"]							07 Jan 2010				A
++$factarray["BAPM:SOUR"]							03 Jan 2010				A
++$factarray["BARM:DATE"]							03 Jan 2010				A
++$factarray["BARM:PLAC"]							03 Jan 2010				A
++$factarray["BARM:SOUR"]							03 Jan 2010				A
++$factarray["BASM:DATE"]							03 Jan 2010				A
++$factarray["BASM:PLAC"]							03 Jan 2010				A
++$factarray["BASM:SOUR"]							03 Jan 2010				A
++$factarray["BIRT:SOUR"]							03 Jan 2010				A
++$factarray["BURI:SOUR"]							03 Jan 2010				A
++$factarray["CHR:SOUR"]								03 Jan 2010				A
++$factarray["CONF:DATE"]							03 Jan 2010				A
++$factarray["CONF:PLAC"]							03 Jan 2010				A
++$factarray["CONF:SOUR"]							03 Jan 2010				A
++$factarray["DEAT:SOUR"]							03 Jan 2010				A
++$factarray["ENGA:DATE"]							03 Jan 2010				A
++$factarray["ENGA:PLAC"]							03 Jan 2010				A
++$factarray["ENGA:SOUR"]							03 Jan 2010				A
++$factarray["FCOM:DATE"]							03 Jan 2010				A
++$factarray["FCOM:PLAC"]							03 Jan 2010				A
++$factarray["FCOM:SOUR"]							03 Jan 2010				A
++$factarray["MARB:DATE"]							03 Jan 2010				A
++$factarray["MARB:PLAC"]							03 Jan 2010				A
++$factarray["MARB:SOUR"]							03 Jan 2010				A
++$factarray["MARR:SOUR"]							03 Jan 2010				A
+*$factarray["MARB"]									01 Jan 2010				S     Spelling mistake
+
+
+VERSION 4.2.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+
+
+VERSION 4.2.2
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+
+
+VERSION 4.2.1
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+*$factarray["_THUM"]								21 Mar 2009				W
+#several variables									18 Mar 2009				Corrected several instances of '" ]' to '"]' (all languages)	
++$factarray["SHARED_NOTE"]							6 Mar 2009				A
++$factarray["NAME:_HEB"]							5 Mar 2009				A
++$factarray["PLAC:_HEB"]							5 Mar 2009				A
++$factarray["TITL:_HEB"]							5 Mar 2009				A
++$factarray["NAME:ROMN"]							5 Mar 2009				A
++$factarray["PLAC:ROMN"]							5 Mar 2009				A
++$factarray["TITL:ROMN"]							5 Mar 2009				A
++$factarray["NAME:FONE"]							5 Mar 2009				A
++$factarray["PLAC:FONE"]							5 Mar 2009				A
++$factarray["TITL:FONE"]							5 Mar 2009				A
++$pgv_lang["DATA:DATE"]								28 Feb 2009				A	Previously $pgv_lang["date_of_entry"]
+
+
+VERSION 4.2.0
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
++$factarray["FAMS:NOTE"]							17 Dec 2008				A
++$factarray["FAMS:CENS:DATE"]						17 Dec 2008				A
++$factarray["FAMS:CENS:PLAC"]						17 Dec 2008				A
++$factarray["FAMS:DIV:DATE"]						17 Dec 2008				A
++$factarray["FAMS:DIV:PLAC"]						17 Dec 2008				A
++$factarray["FAMS:SLGS:DATE"]						17 Dec 2008				A
++$factarray["FAMS:SLGS:PLAC"]						17 Dec 2008				A
++$factarray["FAMS:SLGS:TEMP"]						17 Dec 2008				A
+*$factarray["_UID"]									8 Dec 2008				W

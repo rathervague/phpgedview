@@ -1,0 +1,6 @@
+<!-- @version $Id: BEL_Flandre.txt 4195 2008-10-30 11:03:50Z fisharebest $ -->
+Anvers
+Brabant Flamand
+Flandre Occidentale
+Flandre Orientale
+Limbourg

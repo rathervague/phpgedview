@@ -1,0 +1,442 @@
+PHPGEDVIEW LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_lang.en.txt 7003 2010-12-26 13:00:53Z canajun2eh $
+
+For information on changes prior to the release of PGV 4.2.0 (16 Nov. 2008), please
+refer to the files in ZIP file "languages/CHANGELOG_bef.20081117.zip"
+
+Use this file to follow the changes made to the English language files
+between different versions of PhpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_admin.en.txt
+		CHANGELOG_configure_help.en.txt
+		CHANGELOG_countries.en.txt
+		CHANGELOG_editor.en.txt
+		CHANGELOG_facts.en.txt
+		CHANGELOG_faqlist.en.txt
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / translation was changed
+# $pgv_lang["text"] / keyword was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	R - keyword was renamed (no translation changes required)
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+
+VERSION 4.2.4
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
+-$pgv_lang["show_basic"]							26 Dec 2010				D
++$pgv_lang["ahnentafel_cremated_m"]					26 Dec 2010				A
++$pgv_lang["ahnentafel_cremated_f"]					26 Dec 2010				A
+-$pgv_lang["accesskeys"]                            8 Nov 2010				D
+-$pgv_lang["accesskey_skip_to_content"]             8 Nov 2010				D
+-$pgv_lang["accesskey_search"]                      8 Nov 2010				D
+-$pgv_lang["accesskey_skip_to_content_desc"]        8 Nov 2010				D
+-$pgv_lang["accesskey_viewing_advice"]              8 Nov 2010				D
+-$pgv_lang["accesskey_viewing_advice_desc"]         8 Nov 2010				D
+-$pgv_lang["accesskey_home_page"]                   8 Nov 2010				D
+-$pgv_lang["accesskey_help_content"]                8 Nov 2010				D
+-$pgv_lang["accesskey_help_current_page"]           8 Nov 2010				D
+-$pgv_lang["accesskey_contact"]                     8 Nov 2010				D
+-$pgv_lang["accesskey_individual_details"]          8 Nov 2010				D
+-$pgv_lang["accesskey_individual_relatives"]        8 Nov 2010				D
+-$pgv_lang["accesskey_individual_notes"]            8 Nov 2010				D
+-$pgv_lang["accesskey_individual_sources"]          8 Nov 2010				D
+-$pgv_lang["accesskey_individual_media"]            8 Nov 2010				D
+-$pgv_lang["accesskey_individual_research_log"]     8 Nov 2010				D
+-$pgv_lang["accesskey_individual_pedigree"]         8 Nov 2010				D
+-$pgv_lang["accesskey_individual_descendancy"]      8 Nov 2010				D
+-$pgv_lang["accesskey_individual_timeline"]         8 Nov 2010				D
+-$pgv_lang["accesskey_individual_relation_to_me"]   8 Nov 2010				D
+-$pgv_lang["accesskey_individual_gedcom"]           8 Nov 2010				D
+-$pgv_lang["accesskey_family_parents_timeline"]     8 Nov 2010				D
+-$pgv_lang["accesskey_family_children_timeline"]    8 Nov 2010				D
+-$pgv_lang["accesskey_family_timeline"]             8 Nov 2010				D
+-$pgv_lang["accesskey_family_gedcom"]               8 Nov 2010				D
+*$pgv_lang["no_children"]							31 Jan 2010				w
++$pgv_lang["known_child"]							31 Jan 2010				A
+*$pgv_lang["known_children"]						31 Jan 2010				w
+-$pgv_lang["recorded_here"]							31 Jan 2010				D
+*$pgv_lang["no_children"]							31 Jan 2010				w
++$pgv_lang["known_children"]						31 Jan 2010				w
++$pgv_lang["recorded_here"]							30 Jan 2010				A
++$pgv_lang["gparents"]								29 Jan 2010				A
++$pgv_lang["updated_favorites"]						17 Jan 2010				A
+
+
+VERSION 4.2.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
++$pgv_lang["missing_facts_report"]					22 Dec 2009				A
++$pgv_lang["sources_to_events"]						22 Dec 2009				A
++$pgv_lang["fact_sources_report"]					22 Dec 2009				A
+*$pgv_lang["total_unknown"]							27 Nov 2009				C
+*$pgv_lang["total_living"]							27 Nov 2009				C
+*$pgv_lang["total_dead"]							27 Nov 2009				C
+*$pgv_lang["total_not_born"]						27 Nov 2009				C
+*$pgv_lang["stat_earliest_birth"] 					27 Nov 2009				C
+*$pgv_lang["stat_latest_birth"] 					27 Nov 2009				C
+*$pgv_lang["stat_earliest_death"] 					27 Nov 2009				C
+*$pgv_lang["stat_latest_death"] 					27 Nov 2009				C
+*$pgv_lang["stat_males"]							27 Nov 2009				C
+*$pgv_lang["stat_females"]							27 Nov 2009				C
+*$pgv_lang["stat_unknown"]							27 Nov 2009				C
+*$pgv_lang["g_chart_high"]							27 Nov 2009				C
+*$pgv_lang["g_chart_low"]							27 Nov 2009				C
+*$pgv_lang["stat_other"]							27 Nov 2009				C
+*$pgv_lang["stat_birth_places"]						27 Nov 2009				C
+*$pgv_lang["stat_marriage_places"]					27 Nov 2009				C
+*$pgv_lang["stat_death_places"]						27 Nov 2009				C
+*$pgv_lang["stat_countries"]						27 Nov 2009				C	
+*$pgv_lang["stat_first_event"]						27 Nov 2009				C
+*$pgv_lang["stat_last_event"]						27 Nov 2009				C
+*$pgv_lang["statnsurnames"]							27 Nov 2009				C
+*$pgv_lang["statngivennames"]						27 Nov 2009				C
+*$pgv_lang["top_surnames"]							27 Nov 2009				C
+*$pgv_lang["top_givennames"]						27 Nov 2009				C
+*$pgv_lang["stat_largest_gfamilies"]				27 Nov 2009				C
+*$pgv_lang["stat_age_difference"]					27 Nov 2009				C
+*$pgv_lang["stat_children_in_fam"]					27 Nov 2009				C
+*$pgv_lang["stat_childbirth_age"]					27 Nov 2009				C
+*$pgv_lang["stat_births"]							27 Nov 2009				C
+*$pgv_lang["stat_marriages"]						27 Nov 2009				C
+*$pgv_lang["stat_divorces"]							27 Nov 2009				C
+*$pgv_lang["stat_deaths"]							27 Nov 2009				C
+*$pgv_lang["stat_first_birth"]						27 Nov 2009				C
+*$pgv_lang["stat_first_marriage"]					27 Nov 2009				C
+*$pgv_lang["stat_first_divorce"]					27 Nov 2009				C
+*$pgv_lang["stat_first_death"]						27 Nov 2009				C
+*$pgv_lang["stat_last_birth"]						27 Nov 2009				C
+*$pgv_lang["stat_last_marriage"]					27 Nov 2009				C
+*$pgv_lang["stat_last_divorce"]						27 Nov 2009				C
+*$pgv_lang["stat_last_death"]						27 Nov 2009				C
+*$pgv_lang["stat_long_marr_age"]					27 Nov 2009				w
+*$pgv_lang["stat_short_marr_age"]					27 Nov 2009				w
+*$pgv_lang["stat_marr_age"]							27 Nov 2009				W
+*$pgv_lang["stat_live_longest"]						27 Nov 2009				W
+*$pgv_lang["stat_lived_longest"]					25 Nov 2009				W
++$pgv_lang["stat_own_charts"]						24 Nov 2009				A
++$pgv_lang["statnliving"]							24 Nov 2009				A
++$pgv_lang["statndead"]								24 Nov 2009				A
++$pgv_lang["stat_births"]							24 Nov 2009				A
++$pgv_lang["stat_marriages"]						24 Nov 2009				A
++$pgv_lang["stat_divorces"]							24 Nov 2009				A
++$pgv_lang["stat_deaths"]							24 Nov 2009				A
++$pgv_lang["stat_first_birth"]						24 Nov 2009				A
++$pgv_lang["stat_first_marriage"]					24 Nov 2009				A
++$pgv_lang["stat_first_divorce"]					24 Nov 2009				A
++$pgv_lang["stat_first_death"]						24 Nov 2009				A
++$pgv_lang["stat_last_birth"]						24 Nov 2009				A
++$pgv_lang["stat_last_marriage"]					24 Nov 2009				A
++$pgv_lang["stat_last_divorce"]						24 Nov 2009				A
++$pgv_lang["stat_last_death"]						24 Nov 2009				A
++$pgv_lang["stat_lifespan"]							24 Nov 2009				A
++$pgv_lang["stat_lived_longest"]					24 Nov 2009				A
++$pgv_lang["stat_live_longest"]						24 Nov 2009				A
++$pgv_lang["stat_marr_age"]							24 Nov 2009				A
++$pgv_lang["stat_long_marr_age"]					24 Nov 2009				A
++$pgv_lang["stat_short_marr_age"]					24 Nov 2009				A
++$pgv_lang["stat_youngest_male"]					24 Nov 2009				A
++$pgv_lang["stat_youngest_female"]					24 Nov 2009				A
++$pgv_lang["stat_oldest_male"]						24 Nov 2009				A
++$pgv_lang["stat_oldest_female"]					24 Nov 2009				A
++$pgv_lang["stat_childbirth_age"]					24 Nov 2009				A
++$pgv_lang["stat_youngest_father"]					24 Nov 2009				A
++$pgv_lang["stat_youngest_mother"]					24 Nov 2009				A
++$pgv_lang["stat_oldest_father"]					24 Nov 2009				A
++$pgv_lang["stat_oldest_mother"]					24 Nov 2009				A
++$pgv_lang["stat_children_in_fam"]					24 Nov 2009				A
++$pgv_lang["stat_largest_gfamilies"]				24 Nov 2009				A
++$pgv_lang["stat_age_difference"]					24 Nov 2009				A
++$pgv_lang["stat_age_siblings"]						24 Nov 2009				A
++$pgv_lang["stat_top_age_siblings"]					24 Nov 2009				A
++$pgv_lang["stat_age_mf_spouse"]					24 Nov 2009				A
++$pgv_lang["stat_age_fm_spouse"]					24 Nov 2009				A
++$pgv_lang["stat_names"]							24 Nov 2009				A
++$pgv_lang["statnsurnames"]							24 Nov 2009				A
++$pgv_lang["statngivennames"]						24 Nov 2009				A
++$pgv_lang["top_surnames"]							24 Nov 2009				A
++$pgv_lang["top_givennames"]						24 Nov 2009				A
++$pgv_lang["events"]								24 Nov 2009				A
++$pgv_lang["stat_records"]							24 Nov 2009				A
++$pgv_lang["stat_notes"]							24 Nov 2009				A
++$pgv_lang["stat_first_event"]						24 Nov 2009				A
++$pgv_lang["stat_last_event"]						24 Nov 2009				A
++$pgv_lang["stat_places"]							24 Nov 2009				A
++$pgv_lang["stat_birth_places"]						24 Nov 2009				A
++$pgv_lang["stat_marriage_places"]					24 Nov 2009				A
++$pgv_lang["stat_death_places"]						24 Nov 2009				A
++$pgv_lang["stat_countries"]						24 Nov 2009				A
+*$pgv_lang["changes_present"]						07 Nov 2009				W
++$pgv_lang["ID"]									03 Nov 2009				A
++$pgv_lang["fam_navigator"]							27 Oct 2009				A		line 866 lang_en.php
++$pgv_lang["descendancy_pronoun_m"]					18 Oct 2009				A
++$pgv_lang["descendancy_pronoun_f"]					18 Oct 2009				A
+*$pgv_lang["stat_7_marr"]							09 Aug 2009				w
++$pgv_lang["stat_7_div"]							09 Aug 2009				A
++$pgv_lang["with_sources"]							09 Aug 2009				A
++$pgv_lang["without_sources"]						09 Aug 2009				A
++$pgv_lang["stat_largest_families"]					09 Aug 2009				A
++$pgv_lang["generation_number"]						02 Aug 2009				A
++$pgv_lang["grandchildren"]							02 Aug 2009				A
+
+
+VERSION 4.2.2
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
+*$pgv_lang["ahnentafel_on"]							21 Jul 2009				W has to work with dates like ABT, BET-AND ...
++$pgv_lang["cemetery_report"]						20 Jul 2009				A
++$pgv_lang["burialplace"]							20 Jul 2009				A
+*$pgv_lang["ahnentafel_on"]							19 Jul 2009				f
+*$pgv_lang["edit_media"]							15 Jul 2009				W
++$pgv_lang["ahnentafel_married_post"]				15 Jul 2009				A
++$pgv_lang["ahnentafel_on"]							15 Jul 2009				A
++$pgv_lang["son_of"]								15 Jul 2009				A
++$pgv_lang["daughter_of"]							15 Jul 2009				A
++$pgv_lang["child_of"]								15 Jul 2009				A
++$pgv_lang["children_of"]							15 Jul 2009				A
++$pgv_lang["use_colors"]							12 Jul 2009				A
++$pgv_lang["stat_22_fwok"]							10 Jul 2009				A
++$pgv_lang["no_date_fam"]							10 Jul 2009				A
+*$pgv_lang["choose_file_type"]						09 Jul 2009				W
++$pgv_lang["convertPath"]							09 Jul 2009				A
++$pgv_lang["convertSlashes"]						09 Jul 2009				A
++$pgv_lang["forwardSlashes"]						09 Jul 2009				A
++$pgv_lang["backSlashes"]							09 Jul 2009				A
++$pgv_lang["branch_list"]							09 Jul 2009				A
++$pgv_lang["font"]									08 Jul 2009				A
++$pgv_lang["lchildren"]								08 Jul 2009				A
++$pgv_lang["individual_with_rela_report"]			08 Jul 2009				A
++$pgv_lang["stat_19_aarm"]							08 Jul 2009				A
++$pgv_lang["rootid"]								08 Jul 2009				A Moved from admin.en.php
++$pgv_lang["stat_18_aard"]							07 Jul 2009				A
++$pgv_lang["century"]								07 Jul 2009				A
++$pgv_lang["stat_age"]								07 Jul 2009				A
++$pgv_lang["stat_7_marr"]							04 Jul 2009				A
++$pgv_lang["stat_6_death"]							04 Jul 2009				A
++$pgv_lang["stat_create"]							03 Jul 2009				A
++$pgv_lang["stat_5_birth"]							02 Jul 2009				A
++$pgv_lang["repository"] 							30 Jun 2009				A
++$pgv_lang["random_surn"]							28 Jun 2009				A
++$pgv_lang["gedcomid"]								13 Jun 2009				A Moved from editor.en.php
+*$pgv_lang["landscape_top"]							25 May 2009				w
+*$pgv_lang["landscape_down"]						25 May 2009				w
++$pgv_lang["landscape_top"]							25 May 2009				A
++$pgv_lang["landscape_down"]						25 May 2009				A
++$pgv_lang["ward"]									10 May 2009				A
++$pgv_lang["foster_child"]							10 May 2009				A
++$pgv_lang["foster_father"]							10 May 2009				A
++$pgv_lang["foster_mother"]							10 May 2009				A
++$pgv_lang["guardian"]								10 May 2009				A
++$pgv_lang["nanny"]									10 May 2009				A
++$pgv_lang["sort_style"]							04 May 2009				A
++$pgv_lang["by_anniv"]								04 May 2009				A
++$pgv_lang["by_alpha"]								04 May 2009				A
++$pgv_lang["media_private"]							04 May 2009				A
+*$pgv_lang["stat_link"]								10 Apr 2009				W
+*$pgv_lang["print_stat_link"]						10 Apr 2009				C
++$pgv_lang["print_stat_link"]						10 Apr 2009				A
++$pgv_lang["stat_link"]								10 Apr 2009				A
+
+
+VERSION 4.2.1
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
++$pgv_lang["cemetery_report"]						1 Apr 2009				A
+-$pgv_lang["autocomplete"]							27 Mar 2009				D
+*$pgv_lang["individual_list"]						4 Mar 2009				w	removed " List"
+*$pgv_lang["family_list"]							4 Mar 2009				w	removed " List"
+*$pgv_lang["source_list"]							4 Mar 2009				w	removed " List"
+*$pgv_lang["shared_note_list"]						4 Mar 2009				w	removed " List"
+*$pgv_lang["media_list"] 							4 Mar 2009				w	removed " List"
+*$pgv_lang["repo_list"] 							4 Mar 2009				w	removed " List"
+*$pgv_lang["multi_title"] 							4 Mar 2009				w	removed " List"
++$pgv_lang["search_notes"]							4 Mar 2009				A
+*$pgv_lang["shared_note_menu"]						3 Mar 2009				C
+*$pgv_lang["shared_note_list"]						3 Mar 2009				w
+*$pgv_lang["confirm_delete_repo"]					3 Mar 2009				w
+*$pgv_lang["check_delete"]							3 Mar 2009				w
+*$pgv_lang["confirm_delete_person"]					3 Mar 2009				w
+*$pgv_lang["confirm_delete_source"]					3 Mar 2009				w
+*$pgv_lang["confirm_delete_shared_note"]			3 Mar 2009				w
+*$pgv_lang["confirm_faq_delete"]					3 Mar 2009				w
++$pgv_lang["shared_note_menu"]						2 Mar 2009				A
++$pgv_lang["edit_shared_note"]						2 Mar 2009				A
++$pgv_lang["shared_note_list"]						2 Mar 2009				A
++$pgv_lang["shared_notes"]							2 Mar 2009				A
++$pgv_lang["search_shared_notes"]					2 Mar 2009				A
++$pgv_lang["shared_note"]							2 Mar 2009				A
++$pgv_lang["shared_note_list"]						2 Mar 2009				A
++$pgv_lang["shared_notes_found"]					2 Mar 2009				A
++$pgv_lang["find_shared_note"]						2 Mar 2009				A
++$pgv_lang["shared_note_info"]						2 Mar 2009				A
++$pgv_lang["total_shared_notes"]					2 Mar 2009				A
++$pgv_lang["delete_shared_note"]					2 Mar 2009				A
++$pgv_lang["confirm_delete_shared_note"]			2 Mar 2009				A
++$pgv_lang["shared_note_contains"]					2 Mar 2009				A
++$pgv_lang["brothers_wife"]							01 Mar 2009				A
+-$pgv_lang["date_of_entry"]							28 Feb 2009				M Moved to $factarray["DATA:DATE"]
++$pgv_lang["names"]									26 Feb 2009				A
+*$pgv_lang["parents"]								19 Feb 2009				p	"Parents:" --> "Parents"
+*$pgv_lang["siblings"]								19 Feb 2009				w	"Sibling" --> "Siblings"
+*$pgv_lang["per_page"]								18 Feb 2009				C
++$pgv_lang["sortby"]								18 Feb 2009				A
+-$pgv_lang["months2"]								14 Feb 2009				D
+-$pgv_lang["hour1"]									14 Feb 2009				D
+-$pgv_lang["hours2"]								14 Feb 2009				D
+-$pgv_lang["hours"]									14 Feb 2009				D
+-$pgv_lang["minute1"]								14 Feb 2009				D
+-$pgv_lang["minutes2"]								14 Feb 2009				D
+-$pgv_lang["minutes"]								14 Feb 2009				D
+-$pgv_lang["ago"]									14 Feb 2009				D
+*$pgv_lang["manage_media"]							13 Feb 2009				W
+-$pgv_lang["update_photo"]							10 Feb 2009				D
++$pgv_lang["first_letter_sfname"]					06 Feb 2008				A
+*$pgv_lang["first_letter_fname"]					06 Feb 2008				w
+*$pgv_lang["no_link_found"]							02 Feb 2009				W	remove "(other) "
++$pgv_lang["no_other_link_found"]					02 Feb 2009				A
+
+
+VERSION 4.2.0
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
+*$pgv_lang["welcome_page"]							29 Jan 2009				C
++$pgv_lang["males"]									29 Jan 2009				A
++$pgv_lang["females"]								29 Jan 2009				A
++$pgv_lang["facts"]									26 Jan 2009				A
++$pgv_lang["show_stats_charts"]						25 Jan 2009				A
++$pgv_lang["decade_birth"]							25 Jan 2009				A
++$pgv_lang["decade_death"]							25 Jan 2009				A
++$pgv_lang["decade_marriage"]						25 Jan 2009				A
++$pgv_lang["avg_age"]								25 Jan 2009				A
++$pgv_lang["weeks"]									22 Jan 2009				A
++$pgv_lang["week1"]									22 Jan 2009				A
++$pgv_lang["employee"]								22 Jan 2009				A
++$pgv_lang["employer"]								22 Jan 2009				A
++$pgv_lang["owner"]									22 Jan 2009				A
++$pgv_lang["slave"]									22 Jan 2009				A
++$pgv_lang["months2"]								15 Jan 2009				A
++$pgv_lang["hour1"]									15 Jan 2009				A
++$pgv_lang["hours2"]								15 Jan 2009				A
++$pgv_lang["hours"]									15 Jan 2009				A
++$pgv_lang["minute1"]								15 Jan 2009				A
++$pgv_lang["minutes2"]								15 Jan 2009				A
++$pgv_lang["minutes"]								15 Jan 2009				A
++$pgv_lang["ago"]									15 Jan 2009				A
+*$pgv_lang["stat_males"]							15 Jan 2009				W
+*$pgv_lang["stat_females"]							15 Jan 2009				W
+*$pgv_lang["stat_unknown"]							15 Jan 2009				W
+*$pgv_lang["total_unknown"]							15 Jan 2009				W
+*$pgv_lang["total_living"]							15 Jan 2009				W
+*$pgv_lang["total_dead"]							15 Jan 2009				W
+*$pgv_lang["total_not_born"]						15 Jan 2009				W
++$pgv_lang["total_changes"]							15 Jan 2009				A
++$pgv_lang["total_links"]							15 Jan 2009				A
++$pgv_lang["TYPE__coat"]							05 Jan 2009				A
+*$pgv_lang["view_fam_nav_details"]					04 Jan 2009				w
++$pgv_lang["view_fam_nav_notes"]					04 Jan 2009				A
++$pgv_lang["view_fam_nav_sources"]					04 Jan 2009				A
++$pgv_lang["view_fam_nav_media"]					04 Jan 2009				A
++$pgv_lang["view_fam_nav_album"]					04 Jan 2009				A
++$pgv_lang["view_fam_nav_relatives"]				04 Jan 2009				A
++$pgv_lang["view_fam_nav_tree"]						04 Jan 2009				A
++$pgv_lang["view_fam_nav_research"]					04 Jan 2009				A
++$pgv_lang["view_fam_nav_map"]						04 Jan 2009				A
++$pgv_lang["view_fam_nav_spare"]					04 Jan 2009				A
++$pgv_lang["navigator"]								04 Jan 2009				A
++$pgv_lang["stepparent"]							02 Jan 2009				A
++$pgv_lang["interval"]								18 Dec 2008				A
++$pgv_lang["less"]									18 Dec 2008				A
++$pgv_lang["over"]									18 Dec 2008				A
++$pgv_lang["aft_marr"]								18 Dec 2008				A
++$pgv_lang["bef_marr"]								18 Dec 2008				A
++$pgv_lang["one_child"]								18 Dec 2008				A
++$pgv_lang["two_children"]							18 Dec 2008				A
+*$pgv_lang["quarters"]								18 Dec 2008				W
+*$pgv_lang["half_year"]								18 Dec 2008				W
+*$pgv_lang["search_general"]						15 Dec 2008				C
+*$pgv_lang["search_soundex"]						15 Dec 2008				C
+*$pgv_lang["search_replace"]						15 Dec 2008				C
++$pgv_lang["begins_with"]							15 Dec 2008				A
++$pgv_lang["contains"]								15 Dec 2008				A
++$pgv_lang["sounds_like"]							15 Dec 2008				A
+*$pgv_lang["search_fams"]							14 Dec 2008				W
+*$pgv_lang["search_indis"]							14 Dec 2008				W
++$pgv_lang["skip_marnms"]							12 Dec 2008				A
++$pgv_lang["show_marnms"]							12 Dec 2008				A
++$pgv_lang["stat_4_map"]							06 Dec 2008				A
+*$pgv_lang["stat_8_fam"]							01 Dec 2008				w
+*$pgv_lang["stat_9_indi"]							01 Dec 2008				w
+*$pgv_lang["stplipot"]								01 Dec 2008             w
+-$pgv_lang["stplGDno"]								01 Dec 2008				D
+-$pgv_lang["stpljpgraphno"]							01 Dec 2008				D
+-$pgv_lang["statmess1"]								01 Dec 2008				D
+-$pgv_lang["stplgzas"]								01 Dec 2008				D
++$pgv_lang["stat_sindi"]							01 Dec 2008				A
++$pgv_lang["stat_sfam"]								01 Dec 2008				A
++$pgv_lang["others"]								01 Dec 2008				A
++$pgv_lang["stat_1_map"]							01 Dec 2008				A
++$pgv_lang["stat_2_map"]							01 Dec 2008				A
++$pgv_lang["stat_3_map"]							01 Dec 2008				A
++$pgv_lang["stat_8_fam"]							01 Dec 2008				A
++$pgv_lang["stat_9_indi"]							01 Dec 2008				A
++$pgv_lang["map_type"]								01 Dec 2008				A
++$pgv_lang["indi_distribution_chart"]				01 Dec 2008				A
++$pgv_lang["surname_distribution_chart"]			01 Dec 2008				A
++$pgv_lang["g_chart_high"]							01 Dec 2008				A
++$pgv_lang["g_chart_low"]							01 Dec 2008				A
++$pgv_lang["g_chart_nobody"]						01 Dec 2008				A
++$pgv_lang["area_chart"]							01 Dec 2008				A
++$pgv_lang["europe_chart"]							01 Dec 2008				A
++$pgv_lang["s_america_chart"]						01 Dec 2008				A
++$pgv_lang["asia_chart"]							01 Dec 2008				A
++$pgv_lang["middle_east_chart"]						01 Dec 2008				A
++$pgv_lang["africa_chart"]							01 Dec 2008				A
++$pgv_lang["world_chart"]							01 Dec 2008				A
++$pgv_lang["quarters"]								01 Dec 2008				A
++$pgv_lang["half_year"]								01 Dec 2008				A
++$pgv_lang["stplnuch"]								01 Dec 2008				A
+*$pgv_lang["stplmf"]								01 Dec 2008				W
+*$pgv_lang["stplipot"]								01 Dec 2008				W
+*$pgv_lang["statlxa"]								01 Dec 2008				W
+*$pgv_lang["statlya"]								01 Dec 2008				W
+*$pgv_lang["statlza"]								01 Dec 2008				W
+*$pgv_lang["statar_xgp"]							01 Dec 2008				W
+*$pgv_lang["statar_xgl"]							01 Dec 2008				W
+*$pgv_lang["statar_xgm"]							01 Dec 2008				W
+*$pgv_lang["statar_xga"]							01 Dec 2008				W
+*$pgv_lang["statar_zgp"]							01 Dec 2008				W
+-$pgv_lang["build_error"]							30 Nov 2008				D
+-$pgv_lang["rebuild_indexes"]						30 Nov 2008				D
+*$pgv_lang["stplnumbers"]							23 Nov 2008				W
+*$pgv_lang["statnnames"]							22 Nov 2008				W
+*$pgv_lang["statnfam"]								22 Nov 2008				W
+*$pgv_lang["statnmale"]								22 Nov 2008				W
+*$pgv_lang["statnfemale"]							22 Nov 2008				W
+*$pgv_lang["stat_17_arb"]							22 Nov 2008				C
+*$pgv_lang["stat_18_ard"]							22 Nov 2008				C
+*$pgv_lang["stat_19_arm"]							22 Nov 2008				C
+*$pgv_lang["stat_20_arm1"]							22 Nov 2008				C
+*$pgv_lang["stat_21_nok"]							22 Nov 2008				C

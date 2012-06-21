@@ -1,0 +1,184 @@
+PHPGEDVIEW LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_admin.en.txt 6977 2010-08-25 01:06:08Z canajun2eh $
+
+For information on changes prior to the release of PGV 4.2.0 (16 Nov. 2008), please 
+refer to the files in ZIP file "languages/CHANGELOG_bef.20081117.zip"
+
+Use this file to follow the changes made to the English language files
+between different versions of PhpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_admin.en.txt
+		CHANGELOG_configure_help.en.txt
+		CHANGELOG_countries.en.txt
+		CHANGELOG_editor.en.txt
+		CHANGELOG_facts.en.txt
+		CHANGELOG_faqlist.en.txt
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / translation was changed
+# $pgv_lang["text"] / keyword was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	R - keyword was renamed (no translation changes required)
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+
+VERSION 4.2.4
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
+*$pgv_lang["pgv_requires_version"]					02 Feb 2010				w		Change made in *all* language files
+*$pgv_lang["using_php_version"]	 					02 Feb 2010				w		Change made in *all* language files
+
+
+VERSION 4.2.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
++$pgv_lang["ret_admin"]								10 Oct 2009				A
++$pgv_lang["ret_module_admin"]						10 Oct 2009				A
++$pgv_lang["mod_admin_order"]						08 Oct 2009				A
++$pgv_lang["mod_admin_config"]						08 Oct 2009				A
++$pgv_lang["mod_admin_settings"]					08 Oct 2009				A
++$pgv_lang["module_admin"]							07 Oct 2009				A
++$pgv_lang['mod_admin_installed']					07 Oct 2009				A
++$pgv_lang['mod_admin_tabs']						07 Oct 2009				A
++$pgv_lang['mod_admin_menus']						07 Oct 2009				A
++$pgv_lang['mod_admin_intro']						07 Oct 2009				A
++$pgv_lang['mod_admin_active']						07 Oct 2009				A
++$pgv_lang['mod_admin_name']						07 Oct 2009				A
++$pgv_lang['mod_admin_description']					07 Oct 2009				A
++$pgv_lang['mod_admin_version']						07 Oct 2009				A
++$pgv_lang['mod_admin_hastab']						07 Oct 2009				A
++$pgv_lang['mod_admin_hasmenu']						07 Oct 2009				A
++$pgv_lang['mod_admin_access_level']				07 Oct 2009				A
+-$pgv_lang["pgv_registry"]              			30 Sep 2009       		D
+-$pgv_lang["ALLOW_REMEMBER_ME"]         			30 Sep 2009       		D
+*$pgv_lang["PGV_SMTP_SSL"]							10 Aug 2009				W
+
+
+VERSION 4.2.2
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+-$pgv_lang["rootid"]								08 Jul 2009				A Moved to lang.en.php
+*$pgv_lang["search_add_links"]						20 Jun 2009				w
+*$pgv_lang["add_indi_to_link_list"]					20 Jun 2009				w
++$pgv_lang["no_CHANs_update"]						20 Jun 2009				A
++$pgv_lang["no_update_CHANs"]						20 Jun 2009				A
+#$pgv_lang["gedcheck_sync"]							18 Jun 2009				S (American spelling, please)
+#$pgv_lang["gedcheck_nothing"]						18 Jun 2009				Use only quotation marks when declaring language variables
++$pgv_lang['gedcheck_sync']							18 Jun 2009				A
++$pgv_lang['gedcheck_nothing']						18 Jun 2009				A
+-$pgv_lang["media_now_linked to"]					17 Jun 2009				D
+-$pgv_lang["media_now_unlinked_from"]				17 Jun 2009				D
++$pgv_lang["click_choose_head_text"]				17 Jun 2009				A
++$pgv_lang["link_deleted"]							17 Jun 2009				A
++$pgv_lang["link_added"]							17 Jun 2009				A
+*$pgv_lang["click_choose_head"]						17 Jun 2009				W
+*$pgv_lang["id_empty"]								17 Jun 2009				W
++$pgv_lang["add_indi_to_link_list"]					16 Jun 2009				A
++$pgv_lang["click_choose_head"]						16 Jun 2009				A
++$pgv_lang["head"]									16 Jun 2009				A
++$pgv_lang["media_now_unlinked_from"]				16 Jun 2009				A
++$pgv_lang["id_empty"]								16 Jun 2009				A
+-$pgv_lang["click"]									16 Jun 2009				D
+-$pgv_lang["choose_head"]							16 Jun 2009				D
++$pgv_lang["keep"]									12 Jun 2009				A
++$pgv_lang["unlink"]								12 Jun 2009				A
++$pgv_lang["nav"]									12 Jun 2009				A
++$pgv_lang["fam_nav"]								12 Jun 2009				A
++$pgv_lang["remove"]								12 Jun 2009				A
++$pgv_lang["keep_link"]								12 Jun 2009				A
++$pgv_lang["remove_link"]							12 Jun 2009				A
++$pgv_lang["open_nav"]								12 Jun 2009				A
++$pgv_lang["link_exists"]							12 Jun 2009				A
++$pgv_lang["id_not_valid"]							12 Jun 2009				A
++$pgv_lang["add_fam_other_links"]					12 Jun 2009				A
++$pgv_lang["search_add_links"]						12 Jun 2009				A
++$pgv_lang["enter_name"]							12 Jun 2009				A
++$pgv_lang["add_indi_to_link_list"]					12 Jun 2009				A
+*$pgv_lang["current_links"]							27 May 2009				w
+*$pgv_lang["add_more_links"]						27 May 2009				w
+*$pgv_lang["add_or_remove_links"]					20 May 2009				w
+*$pgv_lang["current_links"]							20 May 2009				C
+*$pgv_lang["add_more_links"]						20 May 2009				C
+*$pgv_lang["enter_pid_or_name"]						20 May 2009				C
+*$pgv_lang["set_links"]								20 May 2009				C
+*$pgv_lang["add_or_remove_links"]					20 May 2009				w
++$pgv_lang["add_or_remove_links"]					20 May 2009				A
++$pgv_lang["media_now_linked to"]					19 May 2009				A
++$pgv_lang["current_links"]							19 May 2009				A
++$pgv_lang["add_more_links"]						19 May 2009				A
++$pgv_lang["enter_pid_or_name"]						19 May 2009				A
++$pgv_lang["set_links"]								19 May 2009				A
+-$pgv_lang["mysqli"]								16 May 2009				D
++$pgv_lang["enter_comment"]							 4 May 2009				A
+
+
+VERSION 4.2.1
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+*$pgv_lang["PGV_SMTP_SSL"] 							15 Feb 2009				w
++$pgv_lang["PGV_SMTP_SSL"] 							15 Feb 2009				A
++$pgv_lang["elapsedYear1"]							14 Feb 2009				A
++$pgv_lang["elapsedYear2"]							14 Feb 2009				A
++$pgv_lang["elapsedYears"]							14 Feb 2009				A
++$pgv_lang["elapsedMonth1"]							14 Feb 2009				A
++$pgv_lang["elapsedMonth2"]							14 Feb 2009				A
++$pgv_lang["elapsedMonths"]							14 Feb 2009				A
++$pgv_lang["elapsedDay1"]							14 Feb 2009				A
++$pgv_lang["elapsedDay2"]							14 Feb 2009				A
++$pgv_lang["elapsedDays"]							14 Feb 2009				A
++$pgv_lang["elapsedHour1"]							14 Feb 2009				A
++$pgv_lang["elapsedHour2"]							14 Feb 2009				A
++$pgv_lang["elapsedHours"]							14 Feb 2009				A
++$pgv_lang["elapsedMinute1"]						14 Feb 2009				A
++$pgv_lang["elapsedMinute2"]						14 Feb 2009				A
++$pgv_lang["elapsedMinutes"]						14 Feb 2009				A
++$pgv_lang["elapsedAgo"]							14 Feb 2009				A
+
+
+VERSION 4.2.0
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
++$pgv_lang["editors"]								26 Jan 2009				A
++$pgv_lang["gedcom_admins"]							26 Jan 2009				A
++$pgv_lang["site_admins"]							26 Jan 2009				A
++$pgv_lang["nobody"]								26 Jan 2009				A
++$pgv_lang["PGV_SMTP_FROM_NAME"]					15 Jan 2009				A
+-$pgv_lang["skip_cleanup"]							28 Dec 2008				D
+-$pgv_lang["manage_gedcoms"]						25 Dec 2008				D	Removed first occurrence of this var.
+*$pgv_lang["PGV_SMTP_HOST"]							21 Dec 2008				W
+*$pgv_lang["PGV_SMTP_HELO"]							21 Dec 2008				W
+*$pgv_lang["PGV_SMTP_PORT"]							21 Dec 2008				W
+*$pgv_lang["PGV_SMTP_AUTH"]							21 Dec 2008				W
+*$pgv_lang["PGV_SMTP_AUTH_USER"]					21 Dec 2008				W
+*$pgv_lang["PGV_SMTP_AUTH_PASS"]					21 Dec 2008				W
++$pgv_lang["PGV_SMTP_ACTIVE"]						21 Dec 2008				A
++$pgv_lang["PGV_SMTP_HOST"]							21 Dec 2008				A
++$pgv_lang["PGV_SMTP_HELO"]							21 Dec 2008				A
++$pgv_lang["PGV_SMTP_PORT"]							21 Dec 2008				A
++$pgv_lang["PGV_SMTP_AUTH"]							21 Dec 2008				A
++$pgv_lang["PGV_SMTP_AUTH_USER"]					21 Dec 2008				A
++$pgv_lang["PGV_SMTP_AUTH_PASS"]					21 Dec 2008				A
++$pgv_lang["ged_export"]							17 Dec 2008				A
++$pgv_lang["tradition_polish"]						21 Nov 2008				A

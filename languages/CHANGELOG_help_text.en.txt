@@ -1,0 +1,150 @@
+PHPGEDVIEW LANGUAGE FILE CHANGELOG
+
+# $Id: CHANGELOG_help_text.en.txt 6988 2010-11-09 02:51:44Z canajun2eh $
+
+For information on changes prior to the release of PGV 4.2.0 (16 Nov. 2008), please
+refer to the files in ZIP file "languages/CHANGELOG_bef.20081117.zip"
+
+Use this file to follow the changes made to the English language files
+between different versions of PhpGedView.  There are eight separate CHANGELOG files,
+one to correspond to each file that together make up the entire set of English text.
+
+The CHANGELOG files are:
+		CHANGELOG_admin.en.txt
+		CHANGELOG_configure_help.en.txt
+		CHANGELOG_countries.en.txt
+		CHANGELOG_editor.en.txt
+		CHANGELOG_facts.en.txt
+		CHANGELOG_faqlist.en.txt
+		CHANGELOG_help_text.en.txt
+		CHANGELOG_lang.en.txt
+
++ $pgv_lang["text"] / means added
+- $pgv_lang["text"] / deleted
+* $pgv_lang["text"] / translation was changed
+# $pgv_lang["text"] / keyword was changed
+
+Additional codes, to help Translators, follow the date as follows:
+	A - Added or moved from another file
+	C - Capitalization  (doesn't affect translation)
+	D - Deleted
+	f - Minor format change
+	F - Major format change
+	p - Punctuation change  (doesn't affect translation)
+	M - Moved to another file
+	R - keyword was renamed (no translation changes required)
+	S - Spelling change		(doesn't affect translation)
+	w - Minor wording change
+	W - Major wording change or completely new text
+
+The above list of codes may be amended as new situations arise.
+
+VERSION 4.2.4
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
+-$pgv_lang["accesskey_viewing_advice_help"]			08 Nov 2010				D
+*$pgv_lang["index_common_given_names_help"]			09 Sep 2010				W
+-$pgv_lang["index_top10_given_names_help"]			09 Sep 2010				D
+*$pgv_lang["index_common_names_help"]				09 Sep 2010				W
+-$pgv_lang["index_top10_surnames_help"]				09 Sep 2010				D
++$pgv_lang["index_top10_given_names_help"]			08 Sep 2010				A
++$pgv_lang["index_top10_surnames_help"]				08 Sep 2010				A
+*$pgv_lang["index_events_help"]						08 Sep 2010				W
+*$pgv_lang["yahrzeit_help"]							08 Sep 2010				W
++$pgv_lang["cal_download_user_help"]				08 Sep 2010				A
+*$pgv_lang["index_onthisday_help"]					08 Sep 2010				W
+*$pgv_lang["edituser_rootid_help"]					08 Sep 2010				w
+*$pgv_lang["edituser_rootid_help"]					12 Aug 2010				w
+
+
+VERSION 4.2.3
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
+*$pgv_lang["edit_add_GEDFact_ASSISTED_help"]		06 Dec 2009				WC
+*$pgv_lang["edit_add_GEDFact_ASSISTED_help"]		03 Dec 2009				W
++$pgv_lang["edit_add_GEDFact_ASSISTED_help"]		18 Nov 2009				A
++$pgv_lang["RESN_help_title"]						16 Nov 2009				A
+*$pgv_lang["RESN_help"]								16 Nov 2009				w
+
+
+VERSION 4.2.2
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change	codes and comments
+----------------------------------------------------------------------------------------
++$pgv_lang["file_type_help"]						09 Jul 2009				A
++$pgv_lang["apply_privacy_help"]					09 Jul 2009				A
++$pgv_lang["convertPath_help"]						09 Jul 2009				A
++$pgv_lang["convertSlashes_help"]					09 Jul 2009				A
+*$pgv_lang["talloffset_help"]						25 May 2009				W
+*$pgv_lang["talloffset_help"]						25 May 2009				W
+*$pgv_lang["sort_style_help"]						05 May 2009				wf
++$pgv_lang["sort_style_help"]						04 May 2009				A
+
+
+VERSION 4.2.1
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+*$pgv_lang["edit__THUM_help"]						22 Mar 2009				W
+*$pgv_lang["add_from_clipboard_help"]				11 Mar 2009				W
+*$pgv_lang["edit_SHARED_NOTE_help"]					4 Mar 2009				W
+*$pgv_lang["add_shared_note_help"]					4 Mar 2009				W
+*$pgv_lang["edit_add_SHARED_NOTE_help"]				4 Mar 2009				W
+*$pgv_lang["edit_add_unlinked_note_help"]			4 Mar 2009				wf
+*$pgv_lang["edit_add_SHARED_NOTE_help"]				4 Mar 2009				w	eill->will
++$pgv_lang["edit_SHARED_NOTE_help"]					3 Mar 2009				A
++$pgv_lang["add_shared_note_help"]					3 Mar 2009				A
++$pgv_lang["edit_add_SHARED_NOTE_help"]				3 Mar 2009				A
++$pgv_lang["edit_add_unlinked_note_help"]			3 Mar 2009				A
++$pgv_lang["medialist_recursive_help"]				18 Feb 2009				A
++$pgv_lang["sortby_help"]							18 Feb 2009				A
+*$pgv_lang["add_media_linkid"]						13 Feb 2009				w
+-$pgv_lang["quick_update_photo_help"]				10 Feb 2009				D
+
+
+VERSION 4.2.0
+
+?$pgv_lang["whatever"]								dd Monthname, year		Change codes and comments
+-----------------------------------------------------------------------------------------
+*$pgv_lang["stat_help_gwx"]							15 Jan 2009		   		WF
+*$pgv_lang["stat_help_gax"]							15 Jan 2009		   		WF
+*$pgv_lang["stat_help_gbx"]							15 Jan 2009		   		WF
+*$pgv_lang["stat_help_gcx"]							15 Jan 2009		   		WF
+*$pgv_lang["stat_help_gwz"]							15 Jan 2009		   		WF
+*$pgv_lang["stat_help_gwx"]							15 Jan 2009		   		w
+*$pgv_lang["stat_help_gax"]							15 Jan 2009		   		w
+*$pgv_lang["stat_help_gbx"]							15 Jan 2009		   		w
+*$pgv_lang["stat_help_gcx"]							15 Jan 2009		   		w
+*$pgv_lang["stat_help_gwz"]							15 Jan 2009		   		w
++$pgv_lang["add_opf_child_help"]					7 Jan 2009		   		A
+-$pgv_lang["skip_cleanup_help"]						28 Dec 2008				D
++$pgv_lang["edit_ROMN_GIVN_help"]					21 Dec 2008				A
++$pgv_lang["edit_ROMN_SURN_help"]					21 Dec 2008				A
++$pgv_lang["edit__HEB_GIVN_help"]					21 Dec 2008				A
++$pgv_lang["edit__HEB_SURN_help"]					21 Dec 2008				A
+*$pgv_lang["show_marnms_help"]						12 Dec 2008				wC
++$pgv_lang["show_marnms_help"]						12 Dec 2008				A
+*$pgv_lang["stat_help_x"]							10 Dec 2008				W
+*$pgv_lang["stat_help_gwx"]							10 Dec 2008				wf
+*$pgv_lang["stat_help_gax"]							10 Dec 2008				wf
+*$pgv_lang["stat_help_gcx"]							10 Dec 2008				wf
+*$pgv_lang["stat_help_gwz"]							10 Dec 2008				wf
+*$pgv_lang["chart_type_help"]						10 Dec 2008				Wf
+*$pgv_lang["google_chart_surname_help"]				10 Dec 2008				Wf
+*$pgv_lang["chart_area_help"]						10 Dec 2008				w
++$pgv_lang["stat_help_gax"]							9 Dec 2008				A
++$pgv_lang["stat_help_gbx"]							9 Dec 2008				A
++$pgv_lang["stat_help_gcx"]							9 Dec 2008				A
++$pgv_lang["chart_type_help"]						9 Dec 2008				A
++$pgv_lang["chart_area_help"]						9 Dec 2008				A
++$pgv_lang["google_chart_surname_help"]				9 Dec 2008				A
+*$pgv_lang["stat_help"]								9 Dec 2008				w
+*$pgv_lang["stat_help_x"]							9 Dec 2008				W
+*$pgv_lang["stat_help_gwx"]							9 Dec 2008				W
+*$pgv_lang["stat_help_gwz"]							9 Dec 2008				W
+*$pgv_lang["upload_media_file_help"]				9 Dec 2008				W
+*$pgv_lang["upload_thumbnail_file_help"]			9 Dec 2008				W
+*$pgv_lang["def_gedcom_date_help"]					30 Nov 2008				W
+*$pgv_lang["utf8_ansi_help"]						23 Nov 2008				W

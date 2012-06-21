@@ -1,0 +1,154 @@
+##
+##
+##        Mod title:  Easy Smiles
+##
+##      Mod version:  1.0.5
+##   Works on PunBB:  1.2
+##     Release date:  2005-01-28
+##           Author:  Jon "Mako" Ursenbach (mako@medievalbattles.com)
+##
+##      Description:  Want an easier way to put smilies on your board?
+##
+##	Affected files:  include/parser.php
+##			lang/YOURLANGUAGE/_easysmilies.php
+##                    plugins/AP_EasySmiles.php
+##
+##       Affects DB:  Yes
+##
+##            Notes:  Adds smilies into the database, rather than into
+##                    parser.php. In order use, follow instructions then go
+##                    to your admin panel and use the Easy Smilies plugin.
+##                    The instructions on there are pretty self-explanatory.
+##			Read changelog.txt for information on version
+##			changes of this mod.
+##
+##       DISCLAIMER:  Please note that "mods" are not officially supported by
+##                    PunBB. Installation of this modification is done at your
+##                    own risk. Backup your forum database and any and all
+##                    applicable files before proceeding.
+##
+##
+
+
+#
+#---------[ 1. UPLOAD ]-------------------------------------------------------
+#
+
+install_mod.php to /
+AP_EasySmiles.php to /plugins
+_easysmilies.php to /lang/YOURLANGUAGE
+
+
+#
+#---------[ 2. RUN ]----------------------------------------------------------
+#
+
+install_mod.php
+
+
+#
+#---------[ 3. DELETE ]-------------------------------------------------------
+#
+
+install_mod.php
+
+
+#
+#---------[ 4. OPEN ]---------------------------------------------------------
+#
+
+include/parser.php
+
+
+#
+#---------[ 5. FIND (line: 30) ]---------------------------------------------
+#
+
+	// Here you can add additional smilies if you like (please note that you must escape singlequote and backslash)
+	$smiley_text = array(':)', '=)', ':|', '=|', ':(', '=(', ':D', '=D', ':o', ':O', ';)', ':/', ':P', ':lol:', ':mad:', ':rolleyes:', ':cool:');
+	$smiley_img = array('smile.png', 'smile.png', 'neutral.png', 'neutral.png', 'sad.png', 'sad.png', 'big_smile.png', 'big_smile.png', 'yikes.png', 'yikes.png', 'wink.png', 'hmm.png', 'tongue.png', 'lol.png', 'mad.png', 'roll.png', 'cool.png');
+
+
+#
+#---------[ 6. REPLACE WITH ]-------------------------------------------------
+#
+
+	//
+	// Get smilies from database
+	//
+	$smiley_text = array();
+	$smiley_img = array();
+	$result = $db->query('SELECT * FROM '.$db->prefix.'smilies') or error('Unable to retrieve smilies', __FILE__, __LINE__, $db->error());
+	while ($db_smilies = $db->fetch_assoc($result))
+	{
+		$smiley_text_array = array($db_smilies['text']);
+		$smiley_text = array_merge($smiley_text, $smiley_text_array);
+
+		$smiley_img_array = array($db_smilies['image']);
+		$smiley_img = array_merge($smiley_img, $smiley_img_array);
+	}
+
+
+#
+#---------[ 5. FIND (line: 361) ]---------------------------------------------
+#
+
+	$text = preg_replace("#(?<=.\W|\W.|^\W)".preg_quote($smiley_text[$i], '#')."(?=.\W|\W.|\W$)#m", '$1<img src="img/smilies/'.$smiley_img[$i].'" width="15" height="15" alt="'.substr($smiley_img[$i], 0, strrpos($smiley_img[$i], '.')).'" />$2', $text);
+
+
+#
+#---------[ 6. REPLACE WITH ]-------------------------------------------------
+#
+
+	$text = preg_replace("#(?<=.\W|\W.|^\W)".preg_quote($smiley_text[$i], '#')."(?=.\W|\W.|\W$)#m", '$1<img src="img/smilies/'.$smiley_img[$i].'" alt="'.substr($smiley_img[$i], 0, strrpos($smiley_img[$i], '.')).'" />$2', $text);
+
+
+#
+#---------[ 7. SAVE/UPLOAD ]-------------------------------------------------
+#
+
+
+#
+#---------[ 7. OPEN ]-------------------------------------------------
+#
+
+help.php
+
+
+#
+#---------[ 8. FIND (line: 154) ]---------------------------------------------
+#
+
+	echo ' '.$lang_help['produces'].' <img src="img/smilies/'.$cur_img.'" width="15" height="15" alt="'.$cur_text.'" /><br />'."\n";
+
+
+#
+#---------[ 9. REPLACE WTIH ]-------------------------------------------------
+#
+
+	echo ' '.$lang_help['produces'].' <img src="img/smilies/'.$cur_img.'" alt="'.$cur_text.'" /><br />'."\n";
+
+
+#
+#---------[ 8. FIND (line: 144) ]---------------------------------------------
+#
+
+NOTE: THIS STEP IS NOT NEEDED FOR THE MOD, BUT IT FIXES
+AN OFFSET ERROR THAT MAY OR MAY NOT APPEAR ON HELP.PHP.
+FIX IS COURTESY OF RICKARD ANDERSSON.
+
+	// Did we find a dupe?
+	if ($smiley_img[$i] == $smiley_img[$next])
+
+
+#
+#---------[ 9. REPLACE WTIH ]-------------------------------------------------
+#
+
+	// Did we find a dupe?
+	if (isset($smiley_img[$next]) && $smiley_img[$i] == $smiley_img[$next])
+
+
+#
+#---------[ 10. SAVE/UPLOAD ]-------------------------------------------------
+#
